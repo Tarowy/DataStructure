@@ -7,16 +7,10 @@ namespace DataStructure.DynamicArray
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Array1<string> stringArray1 = new Array1<string>();
-            for (int i = 0; i < 10; i++)
-            {
-                stringArray1.AddLast("X");
-            }
-
-            Console.WriteLine(stringArray1);
-        }
+        // static void Main(string[] args)
+        // {
+        //   
+        // }
 
         /// <summary>
         /// 测试官方的集合框架
@@ -91,6 +85,15 @@ namespace DataStructure.DynamicArray
             }
 
             Console.WriteLine(array2);
+            
+            //测试泛型
+            Array1<string> stringArray1 = new Array1<string>();
+            for (int i = 0; i < 10; i++)
+            {
+                stringArray1.AddLast("X");
+            }
+
+            Console.WriteLine(stringArray1);
         }
 
         /// <summary>

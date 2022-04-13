@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35585d4d-3bdd-4fb3-996b-a23b421e4dbe" name="Changes" comment="测试装箱与拆箱；为自己的集合框架添加泛型">
+    <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkList1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/DynamicArray/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DynamicArray/DynamicArrayTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/DynamicArray/DynamicArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DynamicArray/DynamicArray.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/C#/DataStructure/DataStructure/DynamicArray/Array1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6440b05da4545bab5bcc0bc5bd6a3fc25580/7d/348572cc/Console.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27gSWHhL24PuatSGtDeuOkgg6HZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +31,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,7 +66,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35585d4d-3bdd-4fb3-996b-a23b421e4dbe" name="Changes" comment="" />
+      <changelist id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="" />
       <created>1649740268454</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -72,6 +76,7 @@
       <workItem from="1649748914446" duration="5607000" />
       <workItem from="1649766554614" duration="2220000" />
       <workItem from="1649828366144" duration="3917000" />
+      <workItem from="1649851196618" duration="2946000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -101,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649833158709</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="测试装箱与拆箱；为自己的集合框架添加泛型">
+      <created>1649833480954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649833480954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +139,6 @@
     <MESSAGE value="创建工程" />
     <MESSAGE value="尝试自己编写集合框架" />
     <MESSAGE value="测试装箱与拆箱；为自己的集合框架添加泛型" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试装箱与拆箱；为自己的集合框架添加泛型" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
