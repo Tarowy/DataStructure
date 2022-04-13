@@ -6,14 +6,14 @@ namespace DataStructure.DynamicArray
     /*
      * 自己实现动态数组的框架
      */
-    public class Array1
+    public class Array1<E>
     {
-        private int[] _data;
+        private E[] _data;
         private int _n;
 
         public Array1(int capacity)
         {
-            _data = new int[capacity];
+            _data = new E[capacity];
             _n = 0;
         }
 
@@ -33,7 +33,7 @@ namespace DataStructure.DynamicArray
         /// </summary>
         /// <param name="index">指定的数组索引</param>
         /// <param name="e">要添加的元素</param>
-        public void Add(int index, int e)
+        public void Add(int index, E e)
         {
             if (index < 0 || index > _n)
                 throw new ArgumentException("数组越界");
@@ -53,7 +53,7 @@ namespace DataStructure.DynamicArray
         /// 向末尾添加元素
         /// </summary>
         /// <param name="e"></param>
-        public void AddLast(int e)
+        public void AddLast(E e)
         {
             Add(_n, e);
         }
@@ -62,7 +62,7 @@ namespace DataStructure.DynamicArray
         /// 向首部添加元素
         /// </summary>
         /// <param name="e"></param>
-        public void AddFirst(int e)
+        public void AddFirst(E e)
         {
             Add(0, e);
         }
@@ -77,7 +77,7 @@ namespace DataStructure.DynamicArray
         /// <param name="index"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentException"></exception>
-        public int Get(int index)
+        public E Get(int index)
         {
             if (index < 0 || index >= _n)
             {
@@ -87,12 +87,12 @@ namespace DataStructure.DynamicArray
             return _data[index];
         }
 
-        public int GetFirst()
+        public E GetFirst()
         {
             return Get(0);
         }
 
-        public int GetLast()
+        public E GetLast()
         {
             return Get(_n - 1);
         }
@@ -102,11 +102,16 @@ namespace DataStructure.DynamicArray
         /// </summary>
         /// <param name="e">要查找的元素</param>
         /// <returns></returns>
-        public bool Contains(int e)
+        public bool Contains(E e)
         {
             for (int i = 0; i < _n; i++)
             {
-                if (_data[i] == e)
+                /*
+                 * 如果是两个引用类型的变量比较，则==是地址比较
+                 * 但如果是两个值类型的比较，除非是专门重载过==的值类型，
+                 * 否则不能直接通过==进行比较，所以应该使用Equals
+                 */
+                if (_data[i].Equals(e))
                 {
                     return true;
                 }
@@ -120,11 +125,11 @@ namespace DataStructure.DynamicArray
         /// </summary>
         /// <param name="e"></param>
         /// <returns></returns>
-        public int IndexOf(int e)
+        public int IndexOf(E e)
         {
             for (int i = 0; i < _n; i++)
             {
-                if (_data[i] == e)
+                if (_data[i].Equals(e))
                 {
                     return i;
                 }
@@ -143,7 +148,7 @@ namespace DataStructure.DynamicArray
         /// <param name="index">数组索引</param>
         /// <param name="newE">新元素</param>
         /// <exception cref="ArgumentException"></exception>
-        public void Set(int index, int newE)
+        public void Set(int index, E newE)
         {
             if (index < 0 || index >= _n)
             {
@@ -163,14 +168,14 @@ namespace DataStructure.DynamicArray
         /// <param name="index">索引</param>
         /// <returns>删除的元素</returns>
         /// <exception cref="ArgumentException"></exception>
-        public int RemoveAt(int index)
+        public E RemoveAt(int index)
         {
             if (index < 0 || index >= _n)
             {
                 throw new ArgumentException("数组越界");
             }
 
-            int del = _data[index];
+            E del = _data[index];
 
             for (int i = index + 1; i <= _n - 1; i++)
             {
@@ -178,7 +183,12 @@ namespace DataStructure.DynamicArray
             }
 
             _n--;
-            _data[_n] = default(int); //让垃圾回收站回收_data[_n]的内存
+            /*
+             * default:让垃圾回收站回收_data[_n]的内存
+             * 如果是值类型则会回归值类型对应的默认值
+             * 如果是引用类型则是null
+             */
+            _data[_n] = default(E);
             
             /*
              * 如果_n==_data.Length/2就缩容的话那么反复在
@@ -192,12 +202,12 @@ namespace DataStructure.DynamicArray
             return del;
         }
 
-        public int RemoveFirst()
+        public E RemoveFirst()
         {
             return RemoveAt(0);
         }
 
-        public int RemoveLast()
+        public E RemoveLast()
         {
             return RemoveAt(_n - 1);
         }
@@ -206,7 +216,7 @@ namespace DataStructure.DynamicArray
         /// 删除明确知道具体值的元素
         /// </summary>
         /// <param name="e"></param>
-        public void Remove(int e)
+        public void Remove(E e)
         {
             var index = IndexOf(e);
             if (index != -1)
@@ -223,7 +233,7 @@ namespace DataStructure.DynamicArray
         /// <param name="newCapacity">要扩容或缩容的长度</param>
         private void ResetCapacity(int newCapacity)
         {
-            var newData = new int[newCapacity];
+            var newData = new E[newCapacity];
             //将旧数组的值依次复制到新数组中
             //不能使用i < data[].length否则缩容会导致越界
             for (int i = 0; i < _n; i++)
