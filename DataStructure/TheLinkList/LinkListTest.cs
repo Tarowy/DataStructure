@@ -6,7 +6,7 @@ namespace DataStructure.TheLinkList
     {
         public static void Main(string[] args)
         {
-            LinkList1<int> list1 = new LinkList1<int>();
+            var list1 = new LinkList1<int>();
             for (int i = 0; i < 5; i++)
             {
                 list1.AddFirst(i);
@@ -19,6 +19,15 @@ namespace DataStructure.TheLinkList
             Console.WriteLine(list1.Get(3));
 
             list1.Set(2,1000);
+            Console.WriteLine(list1);
+            
+            //4->3->1000->1->0->10->null
+            list1.RemoveAt(3);
+            list1.RemoveFirst();
+            list1.RemoveLast();
+            Console.WriteLine(list1);
+
+            list1.Remove(1000);
             Console.WriteLine(list1);
         }
     }

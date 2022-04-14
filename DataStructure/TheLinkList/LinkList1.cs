@@ -42,8 +42,14 @@ namespace DataStructure.TheLinkList
         public int Count => N;
         public bool IsEmpty => N == 0;
 
-        #region 添加
+        #region 添加元素
 
+        /// <summary>
+        /// 在指定的索引添加元素
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="e"></param>
+        /// <exception cref="ArgumentException"></exception>
         public void Add(int index, E e)
         {
             if (index > N || index < 0)
@@ -90,6 +96,12 @@ namespace DataStructure.TheLinkList
 
         #region 获取元素
 
+        /// <summary>
+        /// 获取指定索引的元素
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
         public E Get(int index)
         {
             if (index < 0 || index > N)
@@ -97,8 +109,8 @@ namespace DataStructure.TheLinkList
                 throw new ArgumentException("数组越界");
             }
 
-            Node cur = Head;
-            for (int i = 0; i < index; i++)
+            var cur = Head;
+            for (var i = 0; i < index; i++)
             {
                 cur = cur.Next;
             }
@@ -150,6 +162,91 @@ namespace DataStructure.TheLinkList
             }
 
             cur.E = newE;
+        }
+
+        #endregion
+
+        #region 删除元素
+
+        /// <summary>
+        /// 根据索引删除元素
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
+        public E RemoveAt(int index)
+        {
+            if (index < 0 || index > N)
+            {
+                throw new ArgumentException("数组越界");
+            }
+
+            if (index == 0)
+            {
+                var del = Head;
+                Head = Head.Next;
+                N--;
+                return del.E;
+            }
+            else
+            {
+                var pre = Head;
+                for (var i = 0; i < index - 1; i++)
+                {
+                    pre = pre.Next;
+                }
+
+                var del = pre.Next;
+                pre.Next = del.Next;
+                N--;
+                return del.E;
+            }
+        }
+
+        public E RemoveFirst()
+        {
+            return RemoveAt(0);
+        }
+
+        public E RemoveLast()
+        {
+            return RemoveAt(N - 1);
+        }
+
+        /// <summary>
+        /// 查找指定的值并删除该元素
+        /// </summary>
+        /// <param name="e"></param>
+        public void Remove(E e)
+        {
+            if (Head == null)
+            {
+                return;
+            }
+
+            if (Head.E.Equals(e))
+            {
+                Head = Head.Next;
+                N--;
+            }
+            else
+            {
+                var cur = Head;
+                Node pre = null;
+
+                while (cur != null)
+                {
+                    if (cur.E.Equals(e))
+                    {
+                        pre.Next = cur.Next;
+                        N--;
+                        break;
+                    }
+
+                    pre = cur;
+                    cur = cur.Next;
+                }
+            }
         }
 
         #endregion
