@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
+    <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="添加链表的删除功能">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkList1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkList1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkListTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6440b05da4545bab5bcc0bc5bd6a3fc25580/7d/348572cc/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkListTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkList1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27gSWHhL24PuatSGtDeuOkgg6HZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -148,6 +150,6 @@
     <MESSAGE value="尝试自己编写集合框架" />
     <MESSAGE value="测试装箱与拆箱；为自己的集合框架添加泛型" />
     <MESSAGE value="自己实现链表的增加、删除、修改、包含、获取功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="自己实现链表的增加、删除、修改、包含、获取功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

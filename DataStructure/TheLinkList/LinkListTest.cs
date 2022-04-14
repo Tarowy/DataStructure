@@ -6,6 +6,11 @@ namespace DataStructure.TheLinkList
     {
         public static void Main(string[] args)
         {
+            
+        }
+
+        public static void TestLinkList1()
+        {
             var list1 = new LinkList1<int>();
             for (int i = 0; i < 5; i++)
             {
