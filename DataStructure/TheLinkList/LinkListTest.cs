@@ -4,10 +4,10 @@ namespace DataStructure.TheLinkList
 {
     public class LinkListTest
     {
-        public static void Main(string[] args)
-        {
-            
-        }
+        // public static void Main(string[] args)
+        // {
+        //     
+        // }
 
         public static void TestLinkList1()
         {

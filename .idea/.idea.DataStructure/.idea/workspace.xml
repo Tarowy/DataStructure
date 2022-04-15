@@ -8,6 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructure/DynamicArray/Array2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/Array1Queue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/Array2Queue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/ArrayStack1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/IQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/IStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/LinkListStack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/StackAndQueueTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" afterDir="false" />
     </list>
@@ -20,14 +28,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkListTest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkListTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6440b05da4545bab5bcc0bc5bd6a3fc25580/7d/348572cc/Console.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkListTest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/C#/DataStructure/DataStructure/TheLinkList/LinkList1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27gSWHhL24PuatSGtDeuOkgg6HZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,6 +87,10 @@
       <workItem from="1649851196618" duration="2960000" />
       <workItem from="1649898702966" duration="5352000" />
       <workItem from="1649912775835" duration="325000" />
+      <workItem from="1649938892709" duration="2346000" />
+      <workItem from="1649982562799" duration="6108000" />
+      <workItem from="1650001879943" duration="3970000" />
+      <workItem from="1650025337724" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -151,6 +161,6 @@
     <MESSAGE value="尝试自己编写集合框架" />
     <MESSAGE value="测试装箱与拆箱；为自己的集合框架添加泛型" />
     <MESSAGE value="自己实现链表的增加、删除、修改、包含、获取功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="自己实现链表的增加、删除、修改、包含、获取功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
