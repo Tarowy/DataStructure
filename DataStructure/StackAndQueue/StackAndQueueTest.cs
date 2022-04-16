@@ -7,19 +7,12 @@ namespace DataStructure.StackAndQueue
     {
         public static void Main(string[] args)
         {
-            var n = 200000;
-
-            var array1Queue = new Array1Queue<int>();
-            Console.WriteLine(TestQueue(array1Queue, n));
-
-            var array2Queue = new Array2Queue<int>();
-            Console.WriteLine(TestQueue(array2Queue, n));
         }
 
         public static void TestSelfStack()
         {
             var stack1 = new LinkListStack<int>();
-            for (int i = 0; i < 5; i++)
+            for (var i = 0; i < 5; i++)
             {
                 stack1.Push(i);
                 Console.WriteLine(stack1);
@@ -27,6 +20,8 @@ namespace DataStructure.StackAndQueue
 
             stack1.Pop();
             Console.WriteLine(stack1);
+
+            #region 测试普通数组栈和普通单链表栈的效率
 
             var n = 10000000;
             /*
@@ -43,11 +38,13 @@ namespace DataStructure.StackAndQueue
              * 并且每个节点还要储存下一个节点的地址，导致性能损耗很大，远不如数组栈
              */
             Console.WriteLine("LinkListStack: " + TestStack(linkListStack, n) + "ms");
+
+            #endregion
         }
 
         public static long TestStack(IStack<int> stack, int N)
         {
-            Stopwatch stopwatch = new Stopwatch();
+            var stopwatch = new Stopwatch();
             stopwatch.Start();
             for (int i = 0; i < N; i++)
             {
@@ -79,6 +76,30 @@ namespace DataStructure.StackAndQueue
             }
 
             Console.WriteLine(arrayQueue);
+
+            #region 测试普通数组队列和循环数组队列的效率
+
+            var n = 200000;
+
+            var array1Queue = new Array1Queue<int>();
+            Console.WriteLine(TestQueue(array1Queue, n));
+
+            var array2Queue = new Array2Queue<int>();
+            Console.WriteLine(TestQueue(array2Queue, n));
+
+            #endregion
+
+            #region 测试普通单链表队列和带首尾指针的单链表队列的效率
+
+            var n1 = 200000;
+
+            LinkList1Queue<int> list1Queue = new LinkList1Queue<int>();
+            Console.WriteLine("Linklist1Queue: " + TestQueue(list1Queue, n1) + "ms");
+
+            LinkList2Queue<int> list2Queue = new LinkList2Queue<int>();
+            Console.WriteLine("Linklist2Queue: " + TestQueue(list2Queue, n1) + "ms");
+
+            #endregion
         }
 
         public static long TestQueue(IQueue<int> queue, int N)
@@ -88,15 +109,20 @@ namespace DataStructure.StackAndQueue
 
             for (int i = 0; i < N; i++)
             {
+                /*
+                 * 普通单链表添加一个元素需要从头遍历到尾才能添加，时间复杂度O(n)，循环n次则是O(n^2)
+                 * 而带首尾指针的单链表只需要移动tail指针就行了
+                 */
                 queue.EnQueue(i);
             }
 
-            /*
-             * 普通动态数组：向头部添加一个元素会导致所有元素向后移动一位，时间复杂度O(n)，
-             * 而且又执行n次循环导致时间复杂度变为O(n^2)
-             */
+            
             for (int i = 0; i < N; i++)
-            {
+            { 
+                /*
+                 * 普通动态数组向头部添加一个元素会导致所有元素向后移动一位，时间复杂度O(n)，循环n次时间复杂度为O(n^2)
+                 * 而循环数组只需要移动first指针
+                 */
                 queue.DeQueue();
             }
 
