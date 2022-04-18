@@ -6,10 +6,10 @@ namespace DataStructure.CollectionsAndMaps
 {
     public class SetAndMapTest
     {
-        public static void Main(string[] args)
-        {
-            
-        }
+        // public static void Main(string[] args)
+        // {
+        //     
+        // }
 
         public static void TestSet()
         {
