@@ -8,7 +8,39 @@ namespace DataStructure.OrderlyArray_Search
     {
         public static void Main(string[] args)
         {
-            TestBigSearch();
+            int[] arr = {84, 48, 68, 10, 18, 98, 12, 23, 54, 57, 33, 16, 77, 11, 29};
+
+            var sortedArray1 = new SortedArray1<int>();
+            foreach (var a in arr)
+            {
+                sortedArray1.Add(a);
+            }
+
+            Console.WriteLine(sortedArray1);
+            Console.WriteLine(sortedArray1.Min());
+            Console.WriteLine(sortedArray1.Max());
+            Console.WriteLine(sortedArray1.Select(5));
+            Console.WriteLine(sortedArray1.Ceiling(15));
+            Console.WriteLine(sortedArray1.Floor(15));
+            sortedArray1.Remove(23);
+            Console.WriteLine(sortedArray1);
+
+            var sortedStudent = new SortedArray1<Student>();
+            Student[] students =
+            {
+                new Student("小明", 177),
+                new Student("小红", 158),
+                new Student("小芳", 163),
+                new Student("小强", 188),
+                new Student("小美", 165),
+            };
+
+            foreach (var student in students)
+            {
+                sortedStudent.Add(student);
+            }
+
+            Console.WriteLine(sortedStudent);
         }
 
         private static void TestSmallSearch()
