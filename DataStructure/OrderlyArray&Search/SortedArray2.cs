@@ -4,23 +4,22 @@ using System.Text;
 namespace DataStructure.OrderlyArray_Search
 {
     /// <summary>
-    /// 有序数组，数组内储存的值都是有序的
+    /// 用于映射(字典的)有序数组
     /// </summary>
-    /// <typeparam name="Key">
-    ///     泛型必须是继承了IComparable接口的类，即可排序的
-    /// </typeparam>
-    public class SortedArray1<Key> where Key : IComparable<Key>
+    public class SortedArray2<Key, Value> where Key : IComparable<Key>
     {
         private Key[] _keys;
+        private Value[] _values;
         private int _n;
 
-        public SortedArray1(int capacity)
+        public SortedArray2(int capacity)
         {
             _keys = new Key[capacity];
+            _values = new Value[capacity];
             _n = 0;
         }
 
-        public SortedArray1() : this(10)
+        public SortedArray2() : this(10)
         {
         }
 
@@ -67,7 +66,23 @@ namespace DataStructure.OrderlyArray_Search
             return l;
         }
 
-        public void Add(Key key)
+        public Value Get(Key key)
+        {
+            if (IsEmpty)
+            {
+                throw new ArgumentException("数组为空");
+            }
+
+            var i = Rank(key);
+            if (i < _n && _keys[i].Equals(key))
+            {
+                return _values[i];
+            }
+
+            throw new ArgumentException($"没有{key}这个键");
+        }
+
+        public void Add(Key key,Value value)
         {
             var i = Rank(key);
 
@@ -77,12 +92,13 @@ namespace DataStructure.OrderlyArray_Search
             }
 
             /*
-             * 如果已经存在该元素或者索引没有越界，就什么都不做
+             * 如果已经存在该元素或者索引没有越界，就改变该键对应的值
              *      如果索引越界，说明要添加的元素大于所有已存在的元素，
              *      则直接在i索引位置添加该元素即可
              */
             if (i < _n && _keys[i].CompareTo(key) == 0)
             {
+                _values[i] = value;
                 return;
             }
 
@@ -90,9 +106,11 @@ namespace DataStructure.OrderlyArray_Search
             for (var j = _n - 1; j >= i; j--)
             {
                 _keys[j + 1] = _keys[j];
+                _values[j + 1] = _values[j];
             }
 
             _keys[i] = key;
+            _values[i] = value;
             _n++;
         }
 
@@ -117,10 +135,12 @@ namespace DataStructure.OrderlyArray_Search
             for (var j = i + 1; j <= _n - 1; j++)
             {
                 _keys[j - 1] = _keys[j];
+                _values[j - 1] = _values[j];
             }
 
             _n--;
             _keys[_n] = default;
+            _values[_n] = default;
 
             if (_n == _keys.Length / 4)
             {
@@ -202,13 +222,16 @@ namespace DataStructure.OrderlyArray_Search
         private void ResetCapacity(int capacity)
         {
             var newKey = new Key[capacity];
+            var newValue = new Value[capacity];
 
             for (var i = 0; i < _n; i++)
             {
                 newKey[i] = _keys[i];
+                newValue[i] = _values[i];
             }
 
             _keys = newKey;
+            _values = newValue;
         }
 
         public override string ToString()
@@ -218,7 +241,7 @@ namespace DataStructure.OrderlyArray_Search
             stringBuilder.Append('[');
             for (var i = 0; i < _n; i++)
             {
-                stringBuilder.Append(_keys[i]);
+                stringBuilder.Append("{" + $"{_keys[i]} : {_values[i]}" + "}");
                 if (i != _n - 1)
                 {
                     stringBuilder.Append(", ");

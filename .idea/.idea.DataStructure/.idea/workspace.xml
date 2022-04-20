@@ -8,10 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray1Set.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray2Dictionary.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/SortedArray1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/C#/DataStructure/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6440b05da4545bab5bcc0bc5bd6a3fc25580/7d/348572cc/Console.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27gSWHhL24PuatSGtDeuOkgg6HZ" />
@@ -101,7 +102,8 @@
       <workItem from="1650285222891" duration="1848000" />
       <workItem from="1650287369782" duration="11000" />
       <workItem from="1650342910029" duration="4228000" />
-      <workItem from="1650376657809" duration="3407000" />
+      <workItem from="1650376657809" duration="3616000" />
+      <workItem from="1650439131694" duration="4510000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -180,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650265761624</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="实现有序数组">
+      <created>1650380957581</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650380957581</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
     <MESSAGE value="用链表实现字典(映射)统计" />
     <MESSAGE value="用链表实现字典(映射)统计单词的个数" />
     <MESSAGE value="比较二分查找和顺序查找的效率" />
-    <option name="LAST_COMMIT_MESSAGE" value="比较二分查找和顺序查找的效率" />
+    <MESSAGE value="实现有序数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现有序数组" />
   </component>
 </project>
