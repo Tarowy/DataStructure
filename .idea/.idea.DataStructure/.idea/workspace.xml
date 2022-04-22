@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,8 @@
       <workItem from="1650376657809" duration="3616000" />
       <workItem from="1650439131694" duration="4608000" />
       <workItem from="1650525100077" duration="1276000" />
-      <workItem from="1650543734604" duration="1940000" />
+      <workItem from="1650543734604" duration="1964000" />
+      <workItem from="1650605046940" duration="5192000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -194,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650446767879</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="二叉查找树的添加">
+      <created>1650546339373</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650546339373</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +240,7 @@
     <MESSAGE value="比较二分查找和顺序查找的效率" />
     <MESSAGE value="实现有序数组" />
     <MESSAGE value="有序数组实现集合与字典" />
-    <option name="LAST_COMMIT_MESSAGE" value="有序数组实现集合与字典" />
+    <MESSAGE value="二叉查找树的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉查找树的添加" />
   </component>
 </project>

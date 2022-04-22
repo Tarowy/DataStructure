@@ -8,10 +8,10 @@ namespace DataStructure.OrderlyArray_Search
 {
     public class OrderlyArray_SearchTest
     {
-        public static void Main(string[] args)
-        {
-            TestSortedArray2Dictionary();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     TestSortedArray2Dictionary();
+        // }
 
         private static void TestSmallSearch()
         {
