@@ -21,13 +21,27 @@ namespace DataStructure.BinaryTree
             foreach (var t in a)
                 bst.Add(t);
             
-            bst.PreOrder();
-            Console.WriteLine();
+            // bst.PreOrder();
+            // Console.WriteLine();
+            // bst.InOrder();
+            // Console.WriteLine();
+            // bst.PostOrder();
+            // Console.WriteLine();
+            // bst.LevelOrder();
+
+            // bst.RemoveMax();
+            // bst.RemoveMin();
+            // bst.RemoveMin();
+            // bst.RemoveMin();
+            // bst.RemoveMin();
+            // bst.InOrder();
+            // Console.WriteLine();
+            // Console.WriteLine(bst.Min());
+            // Console.WriteLine(bst.Max());
+
+            // bst.Remove(10);
+            bst.Remove(8);
             bst.InOrder();
-            Console.WriteLine();
-            bst.PostOrder();
-            Console.WriteLine();
-            bst.LevelOrder();
         }
     }
 }

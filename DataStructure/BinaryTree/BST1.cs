@@ -241,5 +241,186 @@ namespace DataStructure.BinaryTree
         }
 
         #endregion
+
+        #region 查找
+
+        public E Min()
+        {
+            if (IsEmpty)
+            {
+                throw new ArgumentException("空树!");
+            }
+
+            return Min(_root).e;
+        }
+
+        /// <summary>
+        ///     查找最小值
+        /// </summary>
+        /// <param name="node">根节点</param>
+        /// <returns>最小值所在的节点</returns>
+        private Node Min(Node node)
+        {
+            if (node.left is null)
+            {
+                return node;
+            }
+
+            return Min(node.left);
+        }
+
+        public E Max()
+        {
+            if (IsEmpty)
+            {
+                throw new ArgumentException("空树!");
+            }
+
+            return Max(_root).e;
+        }
+
+        /// <summary>
+        ///     查找最大值
+        /// </summary>
+        /// <param name="node">根节点</param>
+        /// <returns>最大值所在的节点</returns>
+        private Node Max(Node node)
+        {
+            if (node.right is null)
+            {
+                return node;
+            }
+
+            return Max(node.right);
+        }
+
+        #endregion
+
+        #region 删除
+
+        public E RemoveMin()
+        {
+            var ret = Min();
+            _root = RemoveMin(_root);
+            return ret;
+        }
+
+        /// <summary>
+        ///     删除最小元素
+        /// </summary>
+        /// <param name="node">要删除最小元素的二叉树的根节点地址</param>
+        /// <returns>删除了最小元素之后的根节点地址</returns>
+        private Node RemoveMin(Node node)
+        {
+            //如果左子树为空，那么节点本身就是最小值，无论右子树是否有值，都需要让右子树替换自己
+            if (node.left is null)
+            {
+                _n--;
+                //node只是个指针，这一步只改变node指针的指向，并没有改变node所指向的内存的地址
+                node = node.right;
+                return node;
+            }
+
+            //每个节点挂接删除最小元素之后的左节点
+            node.left = RemoveMin(node.left);
+            /*
+             * 最后终会返回根节点，这样做是为了根节点只有左子树或只有右子树的的时候
+             * 再删除根节点的元素不会出现问题。否则会导致_root还是指向原来的位置
+             */
+            return node;
+        }
+
+        public E RemoveMax()
+        {
+            var ret = Max();
+            _root = RemoveMax(_root);
+            return ret;
+        }
+
+        /// <summary>
+        ///     删除最大元素
+        /// </summary>
+        /// <param name="node">要删除最大元素的二叉树的根节点地址</param>
+        /// <returns>删除了最大元素之后的根节点地址</returns>
+        private Node RemoveMax(Node node)
+        {
+            //如果右子树为空，那么节点本身就是最大值，无论左子树是否有值，都需要让左子树替换自己
+            if (node.right is null)
+            {
+                _n--;
+                //node只是个指针，这一步只改变node指针的指向，并没有改变node所指向的内存的地址
+                node = node.left;
+                return node;
+            }
+
+            //每个节点挂接删除最小元素之后的左节点
+            node.right = RemoveMax(node.right);
+            /*
+             * 最后终会返回根节点，这样做是为了根节点只有左子树或只有右子树的的时候
+             * 再删除根节点的元素不会出现问题。否则会导致_root还是指向原来的位置
+             */
+            return node;
+        }
+
+        public void Remove(E e)
+        {
+            _root = Remove(_root, e);
+        }
+
+        /// <summary>
+        ///     删除指定元素
+        /// </summary>
+        /// <param name="node"></param>
+        /// <param name="e">要删除的元素</param>
+        /// <returns>删除出完元素之后的二叉树根节点</returns>
+        private Node Remove(Node node, E e)
+        {
+            if (node is null)
+            {
+                return null;
+            }
+
+            switch (e.CompareTo(node.e))
+            {
+                //如果删除的元素小于本节点元素就向左查找
+                case < 0:
+                    node.left = Remove(node.left, e);
+                    return node;
+                //如果删除的元素大于本节点元素就向右查找
+                case > 0:
+                    node.right = Remove(node.right, e);
+                    return node;
+                //如果等于本节点元素就真正删除该元素
+                default:
+                {
+                    //如果该节点左孩子为空，就直接让右孩子替代自己
+                    if (node.left is null)
+                    {
+                        node = node.right;
+                        return node;
+                    }
+
+                    //如果该节点右孩子为空，就直接让左孩子替代自己
+                    if (node.right is null)
+                    {
+                        node = node.left;
+                        return node;
+                    }
+
+                    /*
+                     * 如果左右孩子都有元素
+                     *  1.则查找比待删除元素大的最小节点min，即右孩子中最小的元素
+                     *  2.删除min获取右孩子的根节点
+                     *  3.然后让该元素挂接待删元素的左孩子和右孩子
+                     */
+                    var min = Min(node.right);
+                    min.right = RemoveMin(node.right);
+                    min.left = node.left;
+                    return min;
+                }
+            }
+        }
+
+        #endregion
     }
 }

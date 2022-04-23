@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/OrderlyArray&amp;Search/OrderlyArray&amp;SearchTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,11 @@
       <workItem from="1650439131694" duration="4608000" />
       <workItem from="1650525100077" duration="1276000" />
       <workItem from="1650543734604" duration="1964000" />
-      <workItem from="1650605046940" duration="5192000" />
+      <workItem from="1650605046940" duration="5218000" />
+      <workItem from="1650681686792" duration="498000" />
+      <workItem from="1650682202333" duration="3602000" />
+      <workItem from="1650716466256" duration="2346000" />
+      <workItem from="1650724313954" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650546339373</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="二叉树的四种遍历">
+      <created>1650610285140</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650610285140</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +251,7 @@
     <MESSAGE value="实现有序数组" />
     <MESSAGE value="有序数组实现集合与字典" />
     <MESSAGE value="二叉查找树的添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉查找树的添加" />
+    <MESSAGE value="二叉树的四种遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
