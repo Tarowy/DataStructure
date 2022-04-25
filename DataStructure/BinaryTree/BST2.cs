@@ -3,17 +3,19 @@ using System.Collections.Generic;
 
 namespace DataStructure.BinaryTree
 {
-    public class BST1<E> where E : IComparable<E>
+    public class BST2<Key, Value> where Key : IComparable<Key>
     {
         private class Node
         {
-            public E e;
+            public Key key;
+            public Value value;
             public Node left;
             public Node right;
 
-            public Node(E e)
+            public Node(Key key, Value value)
             {
-                this.e = e;
+                this.key = key;
+                this.value = value;
                 left = null;
                 right = null;
             }
@@ -22,7 +24,7 @@ namespace DataStructure.BinaryTree
         private Node _root;
         private int _n;
 
-        public BST1()
+        public BST2()
         {
             _root = null;
             _n = 0;
@@ -33,76 +35,37 @@ namespace DataStructure.BinaryTree
 
         #region 添加
 
-        /// <summary>
-        /// 非递归方式添加元素
-        /// </summary>
-        /// <param name="e"></param>
-        public void AddByOrder(E e)
+        public void Add(Key key, Value value)
         {
-            //如果二叉查找树为空，直接在根节点添加
-            if (_root == null)
-            {
-                _root = new Node(e);
-                _n++;
-                return;
-            }
-
-            Node pre = null;
-            var cur = _root;
-
-            while (cur != null)
-            {
-                if (e.CompareTo(cur.e) == 0)
-                {
-                    return;
-                }
-
-                pre = cur;
-                //如果要添加的元素小于当前元素则向左查找，否则向右查找
-                cur = e.CompareTo(cur.e) < 0 ? cur.left : cur.right;
-            }
-
-            cur = new Node(e);
-
-            if (e.CompareTo(pre.e) < 0)
-            {
-                pre.left = cur;
-            }
-            else
-            {
-                pre.right = cur;
-            }
-
-            _n++;
-        }
-
-        public void Add(E e)
-        {
-            _root = Add(_root, e);
+            _root = Add(_root, key, value);
         }
 
         /// <summary>
         /// 递归方式添加子节点
         /// </summary>
         /// <param name="node">根节点</param>
-        /// <param name="e">要添加的节点元素</param>
+        /// <param name="key">要添加的键</param>
+        /// <param name="value">要添加的值</param>
         /// <returns>返回根节点的地址</returns>
-        private Node Add(Node node, E e)
+        private Node Add(Node node, Key key, Value value)
         {
             //这一步执行了才表明真正把元素添加进去了
             if (node == null)
             {
                 _n++;
-                return new Node(e);
+                return new Node(key, value);
             }
 
-            switch (e.CompareTo(node.e))
+            switch (key.CompareTo(node.key))
             {
                 case < 0:
-                    node.left = Add(node.left, e);
+                    node.left = Add(node.left, key, value);
                     break;
                 case > 0:
-                    node.right = Add(node.right, e);
+                    node.right = Add(node.right, key, value);
+                    break;
+                default:
+                    node.value = value;
                     break;
             }
 
@@ -113,38 +76,9 @@ namespace DataStructure.BinaryTree
 
         #region 包含
 
-        public bool Contains(E e)
+        public bool Contains(Key key)
         {
-            return Contains(_root, e);
-        }
-
-        private bool Contains(Node node, E e)
-        {
-            if (node == null)
-            {
-                return false;
-            }
-
-            // if (node.e.CompareTo(e) == 0)
-            // {
-            //     return true;
-            // }
-            // else if (node.e.CompareTo(e) < 0)
-            // {
-            //     return Contains(node.left, e);
-            // }
-            // else //node.e.CompareTo(e) > 0
-            // {
-            //     return Contains(node.right, e);
-            // }
-
-            //语法糖写法
-            return node.e.CompareTo(e) switch
-            {
-                0 => true,
-                < 0 => Contains(node.left, e),
-                _ => Contains(node.right, e)
-            };
+            return GetNode(_root, key) != null;
         }
 
         #endregion
@@ -167,7 +101,7 @@ namespace DataStructure.BinaryTree
                 return;
             }
 
-            Console.Write(node.e + " ");
+            Console.Write(node.key + " ");
             PreOrder(node.left);
             PreOrder(node.right);
         }
@@ -189,7 +123,7 @@ namespace DataStructure.BinaryTree
             }
 
             InOrder(node.left);
-            Console.Write(node.e + " ");
+            Console.Write(node.key + " ");
             InOrder(node.right);
         }
 
@@ -211,7 +145,7 @@ namespace DataStructure.BinaryTree
 
             PostOrder(node.left);
             PostOrder(node.right);
-            Console.Write(node.e + " ");
+            Console.Write(node.key + " ");
         }
 
         /// <summary>
@@ -226,7 +160,7 @@ namespace DataStructure.BinaryTree
             while (queue.Count != 0)
             {
                 var dequeue = queue.Dequeue();
-                Console.Write(dequeue.e + " ");
+                Console.Write(dequeue.key + " ");
 
                 if (dequeue.left != null)
                 {
@@ -244,14 +178,14 @@ namespace DataStructure.BinaryTree
 
         #region 查找
 
-        public E Min()
+        public Key Min()
         {
             if (IsEmpty)
             {
                 throw new ArgumentException("空树!");
             }
 
-            return Min(_root).e;
+            return Min(_root).key;
         }
 
         /// <summary>
@@ -269,14 +203,14 @@ namespace DataStructure.BinaryTree
             return Min(node.left);
         }
 
-        public E Max()
+        public Key Max()
         {
             if (IsEmpty)
             {
                 throw new ArgumentException("空树!");
             }
 
-            return Max(_root).e;
+            return Max(_root).key;
         }
 
         /// <summary>
@@ -294,11 +228,35 @@ namespace DataStructure.BinaryTree
             return Max(node.right);
         }
 
+        public Value Get(Key key)
+        {
+            var node = GetNode(_root,key);
+
+            if (node ==null)
+            {
+                throw new ArgumentException($"键{key}不存在");
+            }
+
+            return node.value;
+        }
+
+        public void Set(Key key,Value value)
+        {
+            var node = GetNode(_root,key);
+
+            if (node ==null)
+            {
+                throw new ArgumentException($"键{key}不存在");
+            }
+
+            node.value = value;
+        }
+
         #endregion
 
         #region 删除
 
-        public E RemoveMin()
+        public Key RemoveMin()
         {
             var ret = Min();
             _root = RemoveMin(_root);
@@ -330,7 +288,7 @@ namespace DataStructure.BinaryTree
             return node;
         }
 
-        public E RemoveMax()
+        public Key RemoveMax()
         {
             var ret = Max();
             _root = RemoveMax(_root);
@@ -362,33 +320,33 @@ namespace DataStructure.BinaryTree
             return node;
         }
 
-        public void Remove(E e)
+        public void Remove(Key key)
         {
-            _root = Remove(_root, e);
+            _root = Remove(_root, key);
         }
 
         /// <summary>
         ///     删除指定元素
         /// </summary>
         /// <param name="node"></param>
-        /// <param name="e">要删除的元素</param>
+        /// <param name="key">要删除的元素</param>
         /// <returns>删除出完元素之后的二叉树根节点</returns>
-        private Node Remove(Node node, E e)
+        private Node Remove(Node node, Key key)
         {
             if (node is null)
             {
                 return null;
             }
 
-            switch (e.CompareTo(node.e))
+            switch (key.CompareTo(node.key))
             {
                 //如果删除的元素小于本节点元素就向左查找
                 case < 0:
-                    node.left = Remove(node.left, e);
+                    node.left = Remove(node.left, key);
                     return node;
                 //如果删除的元素大于本节点元素就向右查找
                 case > 0:
-                    node.right = Remove(node.right, e);
+                    node.right = Remove(node.right, key);
                     return node;
                 //如果等于本节点元素就真正删除该元素
                 default:
@@ -445,6 +403,21 @@ namespace DataStructure.BinaryTree
             // return Math.Max(l, r);
 
             return Math.Max(MaxHeight(node.left) + 1, MaxHeight(node.right) + 1);
+        }
+
+        private Node GetNode(Node node, Key key)
+        {
+            if (node is null)
+            {
+                return null;
+            }
+
+            return node.key.CompareTo(key) switch
+            {
+                0 => node,
+                > 0 => GetNode(node.left, key),
+                _ => GetNode(node.right, key)
+            };
         }
     }
 }
