@@ -202,16 +202,46 @@ namespace DataStructure.BinaryTree
         ///     后序遍历 左右根
         /// </summary>
         /// <param name="node"></param>
+        // private void PostOrder(Node node)
+        // {
+        //     if (node is null)
+        //     {
+        //         return;
+        //     }
+        //
+        //     PostOrder(node.left);
+        //     PostOrder(node.right);
+        //     Console.Write(node.e + " ");
+        // }
+
+        /// <summary>
+        ///     后序遍历 非递归实现
+        /// </summary>
+        /// <param name="node">要遍历二叉树的根节点</param>
         private void PostOrder(Node node)
         {
-            if (node is null)
+            var nodes = new Stack<Node>();
+            var element = new Stack<E>();
+            var cur = node;
+
+            while (nodes.Count != 0 || cur is not null)
             {
-                return;
+                while (cur is not null)
+                {
+                    element.Push(cur.e);
+                    nodes.Push(cur);
+                    cur = cur.right;
+                }
+
+                if (nodes.Count == 0) continue;
+                cur = nodes.Pop();
+                cur = cur.left;
             }
 
-            PostOrder(node.left);
-            PostOrder(node.right);
-            Console.Write(node.e + " ");
+            while (element.Count != 0)
+            {
+                Console.Write(element.Pop() + " ");
+            }
         }
 
         /// <summary>

@@ -8,11 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1Set.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2Dictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT1Set.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2Dictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/Red&amp;BlackTreeTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +114,13 @@
       <workItem from="1650682202333" duration="3602000" />
       <workItem from="1650716466256" duration="2346000" />
       <workItem from="1650724313954" duration="1882000" />
-      <workItem from="1650861889801" duration="7099000" />
+      <workItem from="1650861889801" duration="7244000" />
+      <workItem from="1651281017910" duration="1805000" />
+      <workItem from="1651295943553" duration="3931000" />
+      <workItem from="1651320205100" duration="593000" />
+      <workItem from="1651369226517" duration="7192000" />
+      <workItem from="1651460061685" duration="682000" />
+      <workItem from="1651469751661" duration="5081000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -225,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650726043409</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="使用二叉树实现集合与映射">
+      <created>1650870300638</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650870300639</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +280,7 @@
     <MESSAGE value="二叉查找树的添加" />
     <MESSAGE value="二叉树的四种遍历" />
     <MESSAGE value="二叉树对元素的删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树对元素的删除" />
+    <MESSAGE value="使用二叉树实现集合与映射" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用二叉树实现集合与映射" />
   </component>
 </project>

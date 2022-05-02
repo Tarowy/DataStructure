@@ -3,6 +3,11 @@ using System.Collections.Generic;
 
 namespace DataStructure.BinaryTree
 {
+    /// <summary>
+    ///  用于字典的二叉树
+    /// </summary>
+    /// <typeparam name="Key"></typeparam>
+    /// <typeparam name="Value"></typeparam>
     public class BST2<Key, Value> where Key : IComparable<Key>
     {
         private class Node
@@ -142,11 +147,13 @@ namespace DataStructure.BinaryTree
             {
                 return;
             }
-
+        
             PostOrder(node.left);
             PostOrder(node.right);
             Console.Write(node.key + " ");
         }
+
+        
 
         /// <summary>
         /// 借助队列进行层序遍历
