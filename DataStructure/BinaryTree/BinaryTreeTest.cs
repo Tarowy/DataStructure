@@ -10,22 +10,7 @@ namespace DataStructure.BinaryTree
     {
         // public static void Main(string[] args)
         // {
-        //     int[] a = { 8, 4, 12, 2, 6, 10, 14 };
-        //
-        //     ///////////////////////
-        //     //         8         //
-        //     //     /       \     //
-        //     //    4        12    //
-        //     //  /   \     /   \  //
-        //     // 2     6   10   14 //
-        //     ///////////////////////
-        //
-        //     var bst = new BST1<int>();
-        //
-        //     foreach (var t in a)
-        //         bst.Add(t);
-        //     
-        //     bst.PostOrder();
+        //     TestBstDictionary();
         // }
 
         public static void TestBst()

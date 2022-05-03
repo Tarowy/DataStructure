@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 
 namespace DataStructure.Red_BlackTree
 {
@@ -7,7 +8,7 @@ namespace DataStructure.Red_BlackTree
     /// </summary>
     /// <typeparam name="Key"></typeparam>
     /// <typeparam name="Value"></typeparam>
-    public class RBT2<Key,Value> where Key : IComparable<Key>
+    public class RBT2<Key, Value> where Key : IComparable<Key>
     {
         private const bool Red = true;
         private const bool Black = false;
@@ -20,7 +21,7 @@ namespace DataStructure.Red_BlackTree
             public Node right;
             public bool Color;
 
-            public Node(Key key,Value value)
+            public Node(Key key, Value value)
             {
                 this.key = key;
                 this.value = value;
@@ -118,7 +119,7 @@ namespace DataStructure.Red_BlackTree
 
         #region 添加
 
-        public void Add(Key key,Value value)
+        public void Add(Key key, Value value)
         {
             _root = Add(_root, key, value);
             _root.Color = Black;
@@ -128,9 +129,10 @@ namespace DataStructure.Red_BlackTree
         ///     递归方式添加子节点，每个节点都要注意不能违反红黑树的定义
         /// </summary>
         /// <param name="node">根节点</param>
-        /// <param name="e">要添加的节点元素</param>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
         /// <returns>返回根节点的地址</returns>
-        private Node Add(Node node, Key key,Value value)
+        private Node Add(Node node, Key key, Value value)
         {
             //这一步执行了才表明真正把元素添加进去了
             if (node == null)
@@ -180,18 +182,7 @@ namespace DataStructure.Red_BlackTree
 
         private bool Contains(Node node, Key key)
         {
-            if (node == null)
-            {
-                return false;
-            }
-
-            //语法糖写法
-            return node.key.CompareTo(key) switch
-            {
-                0 => true,
-                < 0 => Contains(node.left, key),
-                _ => Contains(node.right, key)
-            };
+            return GetNode(_root, key) != null;
         }
 
         #endregion
@@ -215,12 +206,12 @@ namespace DataStructure.Red_BlackTree
 
             return Math.Max(MaxHeight(node.left) + 1, MaxHeight(node.right) + 1);
         }
-        
+
         public Value Get(Key key)
         {
-            var node = GetNode(_root,key);
+            var node = GetNode(_root, key);
 
-            if (node ==null)
+            if (node == null)
             {
                 throw new ArgumentException($"键{key}不存在");
             }
@@ -228,18 +219,18 @@ namespace DataStructure.Red_BlackTree
             return node.value;
         }
 
-        public void Set(Key key,Value value)
-        {
-            var node = GetNode(_root,key);
+        public void Set(Key key, Value value)
+        { 
+            var node = GetNode(_root, key);
 
-            if (node ==null)
+            if (node == null)
             {
                 throw new ArgumentException($"键{key}不存在");
             }
 
             node.value = value;
         }
-        
+
 
         private Node GetNode(Node node, Key key)
         {

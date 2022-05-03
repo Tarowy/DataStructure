@@ -8,15 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT1Set.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2Dictionary.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/Red&amp;BlackTreeTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/HashST1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/HashST1Set.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/HashST2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/HashST2Dictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/TheHashTableTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BST2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/BinaryTree/BinaryTreeTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/CollectionsAndMaps/LinkList1Set.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/CollectionsAndMaps/LinkList1Set.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2Dictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/RBT2Dictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/Red&amp;BlackTreeTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Red&amp;BlackTree/Red&amp;BlackTreeTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/StackAndQueue/LinkList1Queue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/LinkList1Queue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/StackAndQueue/LinkListStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/StackAndQueue/LinkListStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkList1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkList1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheLinkList/LinkListTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +41,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94910692b3714ed793604882def6754e66588/c2/1cb0c36f/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6440b05da4545bab5bcc0bc5bd6a3fc25580/7d/348572cc/Console.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27gSWHhL24PuatSGtDeuOkgg6HZ" />
@@ -120,7 +127,11 @@
       <workItem from="1651320205100" duration="593000" />
       <workItem from="1651369226517" duration="7192000" />
       <workItem from="1651460061685" duration="682000" />
-      <workItem from="1651469751661" duration="5081000" />
+      <workItem from="1651469751661" duration="5132000" />
+      <workItem from="1651540029754" duration="3414000" />
+      <workItem from="1651553617280" duration="6440000" />
+      <workItem from="1651581207969" duration="1971000" />
+      <workItem from="1651589942282" duration="1026000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -241,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650870300639</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="学习红黑树；使用红黑树实现集合与字典">
+      <created>1651474949005</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651474949005</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +299,7 @@
     <MESSAGE value="二叉树的四种遍历" />
     <MESSAGE value="二叉树对元素的删除" />
     <MESSAGE value="使用二叉树实现集合与映射" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用二叉树实现集合与映射" />
+    <MESSAGE value="学习红黑树；使用红黑树实现集合与字典" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习红黑树；使用红黑树实现集合与字典" />
   </component>
 </project>

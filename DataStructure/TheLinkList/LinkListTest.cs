@@ -11,7 +11,7 @@ namespace DataStructure.TheLinkList
 
         public static void TestLinkList1()
         {
-            var list1 = new LinkList1<int>();
+            var list1 = new LinkList3<int>();
             for (int i = 0; i < 5; i++)
             {
                 list1.AddFirst(i);

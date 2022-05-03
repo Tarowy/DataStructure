@@ -5,7 +5,7 @@ namespace DataStructure.Red_BlackTree
 {
     public class RBT2Dictionary<Key,Value> : IDictionary<Key,Value> where Key : IComparable<Key>
     {
-        private RBT2<Key, Value> _rbt2 = new RBT2<Key, Value>();
+        private RBT2<Key, Value> _rbt2;
 
         public RBT2Dictionary()
         {

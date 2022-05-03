@@ -3,7 +3,7 @@ using System.Text;
 
 namespace DataStructure.TheLinkList
 {
-    public class LinkList1<E>
+    public class LinkList3<E>
     {
         private class Node
         {
@@ -33,7 +33,7 @@ namespace DataStructure.TheLinkList
         private Node Head; //链表的头节点
         private int N; //链表长度
 
-        public LinkList1()
+        public LinkList3()
         {
             Head = null;
             N = 0;
