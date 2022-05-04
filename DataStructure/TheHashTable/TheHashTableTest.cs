@@ -8,10 +8,10 @@ namespace DataStructure.TheHashTable
 {
     public class TheHashTableTest
     {
-        static void Main(string[] args)
-        {
-            TestHashDictionary();
-        }
+        // static void Main(string[] args)
+        // {
+        //     TestHashDictionary();
+        // }
         
         private static long TestSet(CollectionsAndMaps.ISet<string> set, List<string> words)
         {
