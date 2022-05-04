@@ -6,12 +6,12 @@ namespace DataStructure.SortAlgorithm
     {
         public static void Main(string[] args)
         {
-            TestBubble();
+            TestInsertSort();
         }
 
-        #region 测试冒泡
+        #region 测试冒泡、选择排序
 
-        private static void TestBubble()
+        private static void TestSomeSort()
         {
             int[] a = { 4, 3, 5, 2, 1, 0 };
             char[] a2 = { 'C', 'A', 'D', 'B', 'G', 'F', 'E'};
@@ -33,10 +33,36 @@ namespace DataStructure.SortAlgorithm
                 new(2020,6,1,"儿童节")
             };
 
-            Sorting.BubbleSort(dates);
+            // Sorting.BubbleSort(dates);
+            Sorting.SelectSort(dates);
 
             foreach (var t in dates)
                 Console.WriteLine(t);
+        }
+
+        #endregion
+
+        #region 测试插入排序
+
+        private static void TestInsertSort()
+        {
+            //数组规模大小
+            var n = 1000000;
+
+            //随机数组a [0...N]
+            // var a=TestHelperSort.RandomArray(n, n);
+            //插入排序对近乎有序的数组排序非常快，这种数量级都只需要 31ms左右
+            var a=TestHelperSort.NearlyOrderedArray(n, 100);
+
+            //将a数组的数据复制到b数组中
+            var b=TestHelperSort.CopyArray(a);
+
+            //对同样的测试用例进行性能测试
+            //提示：不要将类名打错否则将抛出异常
+            //如果你的排序算法编写正确，排序成功，得到运行时间。
+            //如果你的排序算法编写错误 IsSorted 将会检测排序失败。
+            // TestHelperSort.TestSort("SelectSort", a);
+            TestHelperSort.TestSort("InsertSort", b);
         }
 
         #endregion

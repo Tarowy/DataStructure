@@ -8,11 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Date.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/SortTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/TestHelperSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/TheHashTable/TheHashTableTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/TheHashTable/TheHashTableTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/SortTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/SortTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -122,7 +121,8 @@
       <workItem from="1651553617280" duration="6440000" />
       <workItem from="1651581207969" duration="1971000" />
       <workItem from="1651589942282" duration="1026000" />
-      <workItem from="1651629793219" duration="1718000" />
+      <workItem from="1651629793219" duration="1995000" />
+      <workItem from="1651642285658" duration="7759000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651474949005</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="冒泡排序">
+      <created>1651632555150</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651632555150</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +298,7 @@
     <MESSAGE value="二叉树对元素的删除" />
     <MESSAGE value="使用二叉树实现集合与映射" />
     <MESSAGE value="学习红黑树；使用红黑树实现集合与字典" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习红黑树；使用红黑树实现集合与字典" />
+    <MESSAGE value="冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
