@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/TestHelperSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/SortTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/SortTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/TestHelperSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/TestHelperSort.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,13 @@
       <workItem from="1651581207969" duration="1971000" />
       <workItem from="1651589942282" duration="1026000" />
       <workItem from="1651629793219" duration="1995000" />
-      <workItem from="1651642285658" duration="7759000" />
+      <workItem from="1651642285658" duration="7770000" />
+      <workItem from="1651668445039" duration="731000" />
+      <workItem from="1651675136351" duration="1026000" />
+      <workItem from="1651712644296" duration="1200000" />
+      <workItem from="1651812842681" duration="61000" />
+      <workItem from="1651812987819" duration="5325000" />
+      <workItem from="1651838086975" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -257,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651632555150</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="选择排序；插入排序">
+      <created>1651651722875</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651651722875</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +312,7 @@
     <MESSAGE value="使用二叉树实现集合与映射" />
     <MESSAGE value="学习红黑树；使用红黑树实现集合与字典" />
     <MESSAGE value="冒泡排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="选择排序；插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="选择排序；插入排序" />
   </component>
 </project>

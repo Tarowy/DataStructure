@@ -98,5 +98,15 @@ namespace DataStructure.SortAlgorithm
             IsSorted(arr);
             Console.WriteLine(type.Name + " : " + sw.ElapsedMilliseconds + "ms");
         }
+
+        public static void Show<TE>(TE[] arr)
+        {
+            foreach (var a in arr)   
+            {
+                Console.Write(a+" ");
+            }
+
+            Console.WriteLine();
+        }
     }
 }
