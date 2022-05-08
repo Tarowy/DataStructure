@@ -1,4 +1,5 @@
 using System;
+using DataStructure.CollectionsAndMaps;
 
 namespace DataStructure.SortAlgorithm
 {
@@ -6,7 +7,7 @@ namespace DataStructure.SortAlgorithm
     {
         public static void Main(string[] args)
         {
-            TestSomeSort2();
+            TestQuick();
         }
 
         #region 测试冒泡、选择排序
@@ -47,7 +48,7 @@ namespace DataStructure.SortAlgorithm
         private static void TestSomeSort2()
         {
             //数组规模大小
-            var n = 10000000;
+            var n = 1000000;
 
             //随机数组a [0...N]
             var a=TestHelperSort.RandomArray(n, n);
@@ -61,9 +62,59 @@ namespace DataStructure.SortAlgorithm
             //提示：不要将类名打错否则将抛出异常
             //如果你的排序算法编写正确，排序成功，得到运行时间。
             //如果你的排序算法编写错误 IsSorted 将会检测排序失败。
+            
+            //最简单粗暴的排序
+            // TestHelperSort.TestSort("BubbleSort", a);
+            
+            //
             // TestHelperSort.TestSort("SelectSort", a);
+            
+            //对于近乎有序的数组排序非常快
             // TestHelperSort.TestSort("InsertSort", a);
-            TestHelperSort.TestSort("MergeSort", a);
+            
+            // TestHelperSort.TestSort("MergeSort", a);
+            
+            //优化过的归并排序
+            // TestHelperSort.TestSort("MergeSort2", a);
+
+
+            // TestHelperSort.TestSort("QuickSort1", a);
+            // TestHelperSort.TestSort("QuickSort2", b);
+            // TestHelperSort.TestSort("QuickSort3", a);
+        }
+
+        #endregion
+
+        #region 测试快速排序
+
+        private static void TestQuick()
+        {
+            int N = 1000000;
+
+            Console.WriteLine("测试随机数组： ");
+            int[] a = TestHelperSort.RandomArray(N, N);
+            int[] b = TestHelperSort.CopyArray(a);
+            int[] c = TestHelperSort.CopyArray(a);
+            int[] d = TestHelperSort.CopyArray(a);
+            TestHelperSort.TestSort("QuickSort1", a);
+            TestHelperSort.TestSort("QuickSort2", b);
+            TestHelperSort.TestSort("QuickSort3", c);
+            TestHelperSort.TestSort("MergeSort2", d);
+            Console.WriteLine();
+
+            Console.WriteLine("测试近乎有序数组： ");
+            a = TestHelperSort.NearlyOrderedArray(N, 100);
+            b = TestHelperSort.CopyArray(a);
+            c = TestHelperSort.CopyArray(a);
+            TestHelperSort.TestSort("QuickSort2", a); //极其耗费时间
+            TestHelperSort.TestSort("QuickSort3", b);
+            TestHelperSort.TestSort("MergeSort2", c);
+            Console.WriteLine();
+
+            Console.WriteLine("测试大量重复元素数组： ");
+            a = TestHelperSort.RandomArray(N, 10);
+            b = TestHelperSort.CopyArray(a);
+            TestHelperSort.TestSort("QuickSort3", a);
             TestHelperSort.TestSort("MergeSort2", b);
         }
 

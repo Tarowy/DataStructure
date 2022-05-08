@@ -16,7 +16,7 @@ namespace DataStructure.CollectionsAndMaps
             Stopwatch stopwatch = new Stopwatch();
 
             //加@可以就不需要\\转译了
-            var words = TestHelper.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
             Console.WriteLine("单词总数：" + words.Count);
 
             var set = new LinkList1Set<string>();
@@ -37,7 +37,7 @@ namespace DataStructure.CollectionsAndMaps
             Stopwatch stopwatch = new Stopwatch();
 
             //加@可以就不需要\\转译了
-            var words = TestHelper.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
             Console.WriteLine("单词总数：" + words.Count);
 
             var dic = new LinkList3Dictionary<string, int>();

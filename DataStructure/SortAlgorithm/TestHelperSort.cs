@@ -96,7 +96,7 @@ namespace DataStructure.SortAlgorithm
             sortMethod.Invoke(null, paramsArr);
             sw.Stop();
             IsSorted(arr);
-            Console.WriteLine(type.Name + " : " + sw.ElapsedMilliseconds + "ms");
+            Console.WriteLine(sortClassName + " : " + sw.ElapsedMilliseconds + "ms");
         }
 
         public static void Show<TE>(TE[] arr)

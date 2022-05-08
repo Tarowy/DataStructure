@@ -4,11 +4,11 @@ using System.IO;
 
 namespace DataStructure.CollectionsAndMaps
 {
-    public class TestHelper
+    public class TestHelperSort
     {
         //私有的构造函数，不允许外部进行实例化
         //换句话说就是不能通过new关键字创建一个TestHelper类对象
-        private TestHelper() { }
+        private TestHelperSort() { }
 
         //读取名为filename的文件并将它进行简单分词后存入动态数组List中
         public static List<string> ReadFile(string filename)

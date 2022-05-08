@@ -27,7 +27,7 @@ namespace DataStructure.TheHashTable
         {
             Console.WriteLine("双城记");
 
-            var words = TestHelper.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
             Console.WriteLine("词汇量总数：" + words.Count);
 
             Console.WriteLine();
@@ -79,7 +79,7 @@ namespace DataStructure.TheHashTable
         {
             Console.WriteLine("双城记");
 
-            var words = TestHelper.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
             Console.WriteLine("词汇量总数：" + words.Count);
 
             Console.WriteLine();
