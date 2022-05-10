@@ -1,5 +1,8 @@
 using System;
+using System.IO;
 using DataStructure.CollectionsAndMaps;
+using DataStructure.OrderlyArray_Search;
+using DataStructure.PriorityQueue_HeapSort;
 
 namespace DataStructure.SortAlgorithm
 {
@@ -7,7 +10,7 @@ namespace DataStructure.SortAlgorithm
     {
         public static void Main(string[] args)
         {
-            TestQuick();
+            OuterSort();
         }
 
         #region 测试冒泡、选择排序
@@ -85,37 +88,86 @@ namespace DataStructure.SortAlgorithm
 
         #endregion
 
-        #region 测试快速排序
+        #region 测试快速、归并、堆排序
 
-        private static void TestQuick()
+        private static void TestMostSort()
         {
-            int N = 1000000;
+            var N = 10000000;
 
             Console.WriteLine("测试随机数组： ");
-            int[] a = TestHelperSort.RandomArray(N, N);
-            int[] b = TestHelperSort.CopyArray(a);
-            int[] c = TestHelperSort.CopyArray(a);
-            int[] d = TestHelperSort.CopyArray(a);
-            TestHelperSort.TestSort("QuickSort1", a);
-            TestHelperSort.TestSort("QuickSort2", b);
-            TestHelperSort.TestSort("QuickSort3", c);
-            TestHelperSort.TestSort("MergeSort2", d);
+            var a = TestHelperSort.RandomArray(N, N);
+            var b = TestHelperSort.CopyArray(a);
+            var c = TestHelperSort.CopyArray(a);
+            var d = TestHelperSort.CopyArray(a);
+            var e = TestHelperSort.CopyArray(a);
+            var f = TestHelperSort.CopyArray(a);
+            TestHelperSort.TestSort("QuickSort1", a); //快速排序
+            TestHelperSort.TestSort("QuickSort2", b); //随机化快速排序
+            TestHelperSort.TestSort("QuickSort3", c); //三向切片随机化快速排序
+            TestHelperSort.TestSort("MergeSort2", d); //优化后的归并排序
+            TestHelperSort.TestSort("HeapSort1", e); //堆排序
+            TestHelperSort.TestSort("HeapSort2", f); //原地堆排序
             Console.WriteLine();
 
             Console.WriteLine("测试近乎有序数组： ");
             a = TestHelperSort.NearlyOrderedArray(N, 100);
             b = TestHelperSort.CopyArray(a);
             c = TestHelperSort.CopyArray(a);
-            TestHelperSort.TestSort("QuickSort2", a); //极其耗费时间
+            e = TestHelperSort.CopyArray(a);
+            f = TestHelperSort.CopyArray(a);
+            // TestHelperSort.TestSort("QuickSort2", a); //极其耗费时间
             TestHelperSort.TestSort("QuickSort3", b);
             TestHelperSort.TestSort("MergeSort2", c);
+            TestHelperSort.TestSort("HeapSort1", e);
+            TestHelperSort.TestSort("HeapSort2", f);
             Console.WriteLine();
 
             Console.WriteLine("测试大量重复元素数组： ");
             a = TestHelperSort.RandomArray(N, 10);
             b = TestHelperSort.CopyArray(a);
+            e = TestHelperSort.CopyArray(a);
+            f = TestHelperSort.CopyArray(a);
             TestHelperSort.TestSort("QuickSort3", a);
             TestHelperSort.TestSort("MergeSort2", b);
+            TestHelperSort.TestSort("HeapSort1", e);
+            TestHelperSort.TestSort("HeapSort2", f);
+        }
+
+        #endregion
+
+        #region 测试外部排序
+
+        private static void OuterSort()
+        {
+            //在100W个元素中，找出最小的前十个元素。（Top M）
+                //第一种：排序算法
+                var a = Search.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件3\TopM.txt");
+                Sorting.QuickSort3(a);
+                for (var i = 0; i < 10; i++)
+                    Console.Write(a[i]+", ");
+
+                Console.WriteLine();
+
+                //第二种：优先队列
+                var pq = new MaxPQ<int>(10);
+                var fs = new FileStream(@"D:\C#\DataStructure\DataStructure\测试文件3\TopM.txt", FileMode.Open);
+                var sr = new StreamReader(fs);
+                while (!sr.EndOfStream)
+                {
+                    var value = int.Parse(sr.ReadLine());
+                    if (pq.Count < 10)
+                        pq.EnQueue(value);
+                    //如果新的value小于队列中最大的数就将最大的数出队
+                    else if(value < pq.Peek())
+                    {
+                        pq.DeQueue();
+                        pq.EnQueue(value);
+                    }
+                }
+                Console.WriteLine(pq);
+
+                //同理也可以使用最小优先队列。找出最大的前十个元素。
+                //最小优先队列和最大优先队列都是C#中没有提供，但是却很实用的数据结构
         }
 
         #endregion

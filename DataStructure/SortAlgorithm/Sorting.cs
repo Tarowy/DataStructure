@@ -1,4 +1,5 @@
 using System;
+using DataStructure.PriorityQueue_HeapSort;
 
 namespace DataStructure.SortAlgorithm
 {
@@ -246,8 +247,8 @@ namespace DataStructure.SortAlgorithm
         public static void QuickSort2<TE>(TE[] arr) where TE : IComparable<TE>
         {
             QuickSort2(arr, 0, arr.Length - 1);
-        } 
-        
+        }
+
         public static void QuickSort3<TE>(TE[] arr) where TE : IComparable<TE>
         {
             QuickSort3(arr, 0, arr.Length - 1);
@@ -386,10 +387,104 @@ namespace DataStructure.SortAlgorithm
                         break;
                 }
             }
-            
+
             (arr[lt], arr[l]) = (arr[l], arr[lt]);
             QuickSort3<TE>(arr, l, lt - 1); //将左半部分arr[l...lt-1]排序
             QuickSort3<TE>(arr, gt, r); //将右半部分arr[gt...r]排序
+        }
+
+        #endregion
+
+        #region 堆排序
+
+        /// <summary>
+        /// 普通的堆排序，将元素依次存入最大堆，再依次将最大的元素取出逆序存入原数组
+        /// 这个最大堆不使用0索引的位置
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <typeparam name="TE"></typeparam>
+        public static void HeapSort1<TE>(TE[] arr) where TE : IComparable<TE>
+        {
+            var n = arr.Length;
+
+            var maxHeap = new MaxHeap<TE>(n);
+            for (var i = 0; i < n; i++)
+            {
+                //利用最大堆的特性储存元素，会自动进行上游操作
+                maxHeap.Insert(arr[i]);
+            }
+
+            for (var i = n - 1; i >= 0; i--)
+            {
+                //利用最大堆的特性每次得到最大元素，会自动进行下沉操作
+                arr[i] = maxHeap.RemoveMax();
+            }
+        }
+
+        /// <summary>
+        /// 优化过的最大堆排序，普通堆需要额外的数组空间，而优化过后可以直接在原数组进行堆排序
+        /// 这个最大堆会使用0索引的位置
+        /// 左孩子：leftChild=2*i+1
+        /// 右孩子：rightChild=2*i+2
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <typeparam name="TE"></typeparam>
+        public static void HeapSort2<TE>(TE[] arr) where TE : IComparable<TE>
+        {
+            var n = arr.Length;
+            /*
+             *   (n-1-1)/2是最大非叶子节点的节点索引，依次从最后一个
+             *   非叶子节点开始对每个节点进行下沉操作，将数组整理成一个最大堆
+             * 每个节点元素都大于所有子节点的元素
+             */
+            for (var i = (n - 1 - 1) / 2; i >= 0; i--)
+            {
+                //由于堆是0元素开始的，所以要n-1
+                Sink(arr, i, n - 1);
+            }
+
+            /*
+             * 1.先交换首尾元素位置，这样最大的元素就到了最后一位，可以将其忽略掉(i--)
+             * 2.然后对交换后的首元素进行下沉操作，让下一个最大元素上游成根节点
+             * 3.重复进行前两步操作
+             */
+            for (var i = n - 1; i >= 0; i--)
+            {
+                (arr[0], arr[i]) = (arr[i], arr[0]);
+                Sink(arr, 0, i - 1);
+            }
+        }
+
+        //元素下沉
+        private static void Sink<TE>(TE[] arr, int k, int n) where TE : IComparable<TE>
+        {
+            //确保节点k至少有一个左孩子
+            while (2 * k + 1 <= n)
+            {
+                //k的左孩子
+                var j = 2 * k + 1;
+
+                /*
+                 * 如果k节点有右孩子且右孩子大于左孩子，说明右孩子大于左孩子及左孩子
+                 * 的所有子节点，让j指向右孩子(j++)
+                 */
+                if (j + 1 <= n && arr[j + 1].CompareTo(arr[j]) > 0)
+                {
+                    j++;
+                }
+
+                /*
+                 * 如果k节点大于或等于左/右孩子节点，说明k节点大于或等于
+                 * 所有子节点，k节点则无需下沉操作
+                 */
+                if (arr[k].CompareTo(arr[j]) >= 0)
+                {
+                    break;
+                }
+
+                (arr[j], arr[k]) = (arr[k], arr[j]);
+                k = j;
+            }
         }
 
         #endregion
