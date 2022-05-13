@@ -9,7 +9,20 @@ namespace DataStructure.DynamicArray
     {
         // static void Main(string[] args)
         // {
-        //   
+        //     //获取和设置当前目录（即该进程从中启动的目录）的完全限定路径
+        //     Console.WriteLine(Process.GetCurrentProcess().MainModule.FileName); 
+        //     /*
+        //      * 备注 按照定义，如果该进程在本地或网络驱动器的根目录中启动，则此属性的值为驱动器名称后跟一个尾部反斜杠（如“C:\”）
+        //      * 如果该进程在子目录中启动，则此属性的值为不带尾部反斜杠的驱动器和子目录路径（如“C:\mySubDirectory”）
+        //      */
+        //     Console.WriteLine(Environment.CurrentDirectory);
+        //     //获取应用程序的当前工作目录
+        //     Console.WriteLine(Directory.GetCurrentDirectory());
+        //     //获取基目录，它由程序集冲突解决程序用来探测程序集
+        //     Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory); 
+        //     //获取或设置包含该应用程序的目录的名称
+        //     Console.WriteLine(AppDomain.CurrentDomain.SetupInformation.ApplicationBase);
+        //     // Console.WriteLine(MediaTypeNames.Application.StartupPath);
         // }
 
         /// <summary>

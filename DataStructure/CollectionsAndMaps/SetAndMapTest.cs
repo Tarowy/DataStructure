@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 
 namespace DataStructure.CollectionsAndMaps
 {
@@ -8,7 +9,7 @@ namespace DataStructure.CollectionsAndMaps
     {
         // public static void Main(string[] args)
         // {
-        //     
+        //     TestSet();
         // }
 
         public static void TestSet()
@@ -16,7 +17,7 @@ namespace DataStructure.CollectionsAndMaps
             Stopwatch stopwatch = new Stopwatch();
 
             //加@可以就不需要\\转译了
-            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile($@"{Directory.GetCurrentDirectory()}\..\..\..\测试文件1\双城记.txt");
             Console.WriteLine("单词总数：" + words.Count);
 
             var set = new LinkList1Set<string>();
@@ -37,7 +38,7 @@ namespace DataStructure.CollectionsAndMaps
             Stopwatch stopwatch = new Stopwatch();
 
             //加@可以就不需要\\转译了
-            var words = TestHelperSort.ReadFile(@"D:\C#\DataStructure\DataStructure\测试文件1\双城记.txt");
+            var words = TestHelperSort.ReadFile($@"{Directory.GetCurrentDirectory()}\..\..\..\测试文件1\双城记.txt");
             Console.WriteLine("单词总数：" + words.Count);
 
             var dic = new LinkList3Dictionary<string, int>();
@@ -54,7 +55,7 @@ namespace DataStructure.CollectionsAndMaps
                     dic.Set(word, dic.Get(word) + 1);
                 }
             }
-            
+
             stopwatch.Stop();
 
             Console.WriteLine("不同的单词个数：" + dic.Count);

@@ -8,10 +8,10 @@ namespace DataStructure.SortAlgorithm
 {
     public class SortTest
     {
-        public static void Main(string[] args)
-        {
-            OuterSort();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     OuterSort();
+        // }
 
         #region 测试冒泡、选择排序
 
