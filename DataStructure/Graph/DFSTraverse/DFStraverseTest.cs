@@ -5,15 +5,16 @@ namespace DataStructure.Graph.DFStraverse
 {
     public class DFStraverseTest
     {
-        public static void Main(string[] args)
-        {
-            // TestDFS();
-            // TestSinglePath();
-            // TestCycleDetection();
-            TestBiPartitionDetection();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     // TestDFS();
+        //     // TestSinglePath();
+        //     // TestCycleDetection();
+        //     // TestBiPartitionDetection();
+        //     TestDFSGraphNR();
+        // }
 
-        private static void TestDFS()
+        public static void TestDFS()
         {
             IGraph graph = new AdjLinkedList($@"{Directory.GetCurrentDirectory()}\..\..\..\图\图的深度优先遍历\g2.txt");
             Console.WriteLine(new DFSGraph(graph));
@@ -41,6 +42,13 @@ namespace DataStructure.Graph.DFStraverse
             var dfsBiPartitionDetection = new DFSBiPartitionDetection(
                 new AdjLinkedList($@"{Directory.GetCurrentDirectory()}\..\..\..\图\图的二分检测\g2.txt"));
             Console.WriteLine(dfsBiPartitionDetection.IsPartition());
+        }
+
+        private static void TestDFSGraphNR()
+        {
+            var dfsGraphNr =
+                new DFSGraphNR(new AdjLinkedList($@"{Directory.GetCurrentDirectory()}\..\..\..\图\图的深度优先遍历\g.txt"));
+            Console.WriteLine(dfsGraphNr.ToString());
         }
     }
 }
