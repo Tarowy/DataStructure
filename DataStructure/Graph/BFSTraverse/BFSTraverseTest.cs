@@ -6,14 +6,14 @@ namespace DataStructure.Graph.BFSTraverse
 {
     public class BFSTraverseTest
     {
-        public static void Main(string[] args)
-        {
-            // TestBFSGraph();
-            // TestBFSSingleSourcePath();
-            // TestBFSBiPartitionDetection();
-            // TestBFSCycleDetection();
-            TestRandomGraph();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     // TestBFSGraph();
+        //     // TestBFSSingleSourcePath();
+        //     // TestBFSBiPartitionDetection();
+        //     // TestBFSCycleDetection();
+        //     TestRandomGraph();
+        // }
 
         private static void TestBFSGraph()
         {
