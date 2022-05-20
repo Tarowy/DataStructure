@@ -8,14 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode1020.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode130.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode200.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode695.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode733.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode785.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/DisjointSet/DisjointSetTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/DisjointSet/IUF.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/DisjointSet/UnionFind1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Graph/DisjointSet/UnionFind2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/BFSTraverse/BFSTraverseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Graph/BFSTraverse/BFSTraverseTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode785.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode785.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +157,8 @@
       <workItem from="1652851884561" duration="2449000" />
       <workItem from="1652874850097" duration="2469000" />
       <workItem from="1652938424084" duration="3991000" />
+      <workItem from="1652962975770" duration="687000" />
+      <workItem from="1653023025391" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -342,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652679212191</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="练习力扣图论相关的几道题">
+      <created>1652963030940</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652963030940</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +372,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="测试装箱与拆箱；为自己的集合框架添加泛型" />
     <MESSAGE value="自己实现链表的增加、删除、修改、包含、获取功能" />
     <MESSAGE value="测试普通数组栈和链表栈；分别使用普通动态数组和循环动态数组实现队列" />
     <MESSAGE value="普通单链表队列和带首尾指针的单链表队列" />
@@ -390,6 +396,7 @@
     <MESSAGE value="图的" />
     <MESSAGE value="图的连通分量、单源路径、环检测、二分图检测" />
     <MESSAGE value="图的连通分量、单源路径、环检测、二分图检测(广度优先)；随机队列遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="图的连通分量、单源路径、环检测、二分图检测(广度优先)；随机队列遍历" />
+    <MESSAGE value="练习力扣图论相关的几道题" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习力扣图论相关的几道题" />
   </component>
 </project>

@@ -4,29 +4,29 @@ namespace DataStructure.Graph.LeetCode
 {
     public class LeetCode785
     {
-        public static void Main(string[] args)
-        {
-            int[][] graph1 =
-            {
-                new int[]{1,2,3},
-                new int[]{0,2},
-                new int[]{0,1,3},
-                new int[]{0,2},
-
-            };
-
-            int[][] graph2 =
-            {
-                new int[]{1,3},
-                new int[]{0,2},
-                new int[]{1,3},
-                new int[]{0,2},
-
-            };
-            
-            Console.WriteLine(new LeetCode785().IsBipartite(graph1));
-            Console.WriteLine(new LeetCode785().IsBipartite(graph2));
-        }
+        // public static void Main(string[] args)
+        // {
+        //     int[][] graph1 =
+        //     {
+        //         new int[]{1,2,3},
+        //         new int[]{0,2},
+        //         new int[]{0,1,3},
+        //         new int[]{0,2},
+        //
+        //     };
+        //
+        //     int[][] graph2 =
+        //     {
+        //         new int[]{1,3},
+        //         new int[]{0,2},
+        //         new int[]{1,3},
+        //         new int[]{0,2},
+        //
+        //     };
+        //     
+        //     Console.WriteLine(new LeetCode785().IsBipartite(graph1));
+        //     Console.WriteLine(new LeetCode785().IsBipartite(graph2));
+        // }
 
         private int[][] _graph;
         private bool[] _visited;
