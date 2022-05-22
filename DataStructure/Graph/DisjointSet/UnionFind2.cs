@@ -36,15 +36,15 @@ namespace DataStructure.Graph.DisjointSet
         //将p、q合并到一个集合中去，p的父节点直接指向q O(h)和树的高度有关
         public void Union(int p, int q)
         {
-            var pId = Find(p);
-            var qId = Find(q);
+            var pRoot = Find(p);
+            var qRoot = Find(q);
 
-            if (qId == pId)
+            if (pRoot == qRoot)
             {
                 return;
             }
 
-            _parent[p] = q;
+            _parent[pRoot] = qRoot;
         }
 
         //查询p和q是不是同一个集合的 O(h)和树的高度有关

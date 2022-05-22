@@ -5,16 +5,16 @@ namespace DataStructure.Graph.DisjointSet
 {
     public class DisjointSetTest
     {
-        public static void Main(string[] args)
-        {
-            var size = 100000;
-            var m = 100000;
-            var unionFind1 = new UnionFind1(size);
-            Console.WriteLine($"unionFind1: {TestIUF(unionFind1,m)}ms");
-
-            var unionFind2 = new UnionFind2(size);
-            Console.WriteLine($"unionFind2: {TestIUF(unionFind2, m)}ms");
-        }
+        // public static void Main(string[] args)
+        // {
+        //     var size = 100000;
+        //     var m = 100000;
+        //     var unionFind1 = new UnionFind1(size);
+        //     Console.WriteLine($"unionFind1: {TestIUF(unionFind1,m)}ms");
+        //
+        //     var unionFind2 = new UnionFind2(size);
+        //     Console.WriteLine($"unionFind2: {TestIUF(unionFind2, m)}ms");
+        // }
 
         private static long TestIUF(IUF uf, int m)
         {
