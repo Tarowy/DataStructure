@@ -5,13 +5,13 @@ namespace DataStructure.Graph.GraphWithWeight
 {
     public class GraphWithWeightTest
     {
-        public static void Main(string[] args)
-        {
-            // TestAdjDictionary();
-            // TestKruskal();
-            // TestPrim();
-            TestDijkstra();
-        }
+        // public static void Main(string[] args)
+        // {
+        //     // TestAdjDictionary();
+        //     // TestKruskal();
+        //     // TestPrim();
+        //     TestDijkstra();
+        // }
 
         private static void TestAdjDictionary()
         {

@@ -1,6 +1,4 @@
-using System;
-
-namespace DataStructure.Graph.LeetCode
+namespace DataStructure.LeetCode
 {
     public class LeetCode785
     {

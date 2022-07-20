@@ -67,7 +67,7 @@ namespace DataStructure.SortAlgorithm
         ///     插入排序，每次拿出一个元素e，e之前的所有元素边向后移动边与e作比较，
         /// 如果该元素大于等于某个元素arr[j]，就在arr[j+1]的位置放入该元素
         ///     该排序方法最差的时间复杂度是O(n^2)，如果数组是近乎有序的，
-        /// 那么就能基本忽略掉内存循环，使复杂度降为0(n)
+        /// 那么就能基本忽略掉内层循环，使复杂度降为0(n)
         /// </summary>
         /// <param name="arr"></param>
         /// <typeparam name="TE"></typeparam>
