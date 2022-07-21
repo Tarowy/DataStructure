@@ -8,17 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode21.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/GraphWithWeight/GraphWithWeightTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Graph/GraphWithWeight/GraphWithWeightTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode1020.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode1020.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode130.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode130.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode200.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode200.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode695.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode695.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode733.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode733.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/LeetCode/LeetCode785.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode785.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/SortAlgorithm/Sorting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.CSharpInteractiveConfiguration",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DataStructure" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -184,7 +177,10 @@
       <workItem from="1656594267114" duration="664000" />
       <workItem from="1656594967588" duration="27000" />
       <workItem from="1656595571745" duration="15000" />
-      <workItem from="1658319417825" duration="6674000" />
+      <workItem from="1658319417825" duration="6871000" />
+      <workItem from="1658365124144" duration="2115000" />
+      <workItem from="1658379327980" duration="660000" />
+      <workItem from="1658408775976" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -389,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653209218606</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="LeetCode1,2">
+      <created>1658327232923</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1658327232923</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="用链表实现集合统计单词的字数" />
     <MESSAGE value="啊" />
     <MESSAGE value="用链表实现字典(映射)统计" />
     <MESSAGE value="用链表实现字典(映射)统计单词的个数" />
@@ -436,6 +438,11 @@
     <MESSAGE value="并查集的实现与优化" />
     <MESSAGE value="带权Dijkstra算法" />
     <MESSAGE value="带权图的储存；Kruskal、Prim；Dijkstra算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="LeetCode1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode1,2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
