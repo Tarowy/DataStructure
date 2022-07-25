@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="LeetCode7,9">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode11.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode12.cs" afterDir="false" />
+    <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode13.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode14.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +181,8 @@
       <workItem from="1658379327980" duration="660000" />
       <workItem from="1658408775976" duration="1898000" />
       <workItem from="1658450581543" duration="2783000" />
-      <workItem from="1658536513666" duration="2922000" />
+      <workItem from="1658536513666" duration="2943000" />
+      <workItem from="1658622403103" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -407,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658537136048</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="LeetCode11,12">
+      <created>1658539606933</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1658539606933</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +437,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="用链表实现字典(映射)统计单词的个数" />
     <MESSAGE value="比较二分查找和顺序查找的效率" />
     <MESSAGE value="实现有序数组" />
     <MESSAGE value="有序数组实现集合与字典" />
@@ -454,7 +461,8 @@
     <MESSAGE value="LeetCode1,2" />
     <MESSAGE value="LeetCode3,21" />
     <MESSAGE value="LeetCode7,9" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode7,9" />
+    <MESSAGE value="LeetCode11,12" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode11,12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
