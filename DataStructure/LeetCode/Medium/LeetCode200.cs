@@ -1,4 +1,4 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
     public class LeetCode200
     {

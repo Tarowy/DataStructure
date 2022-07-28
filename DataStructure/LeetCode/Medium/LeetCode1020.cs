@@ -1,5 +1,9 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
+    /// <summary>
+    /// 1020. 飞地的数量
+    /// https://leetcode.cn/problems/number-of-enclaves/
+    /// </summary>
     public class LeetCode1020
     {
         //x的方向是从上往下，y的方向是从左往右

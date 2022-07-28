@@ -1,4 +1,4 @@
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Simple;
 
 /// <summary>
 /// 14. 最长公共前缀

@@ -1,4 +1,6 @@
-namespace DataStructure.LeetCode
+using DataStructure.LeetCode.Medium;
+
+namespace DataStructure.LeetCode.Simple
 {
     /// <summary>
     /// 21. 合并两个有序链表

@@ -1,6 +1,6 @@
 using System;
 
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Medium;
 
 /// <summary>
 /// 7. 整数反转

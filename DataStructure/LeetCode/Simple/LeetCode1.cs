@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Simple
 {
     /// <summary>
     /// 1. 两数之和

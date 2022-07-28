@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="LeetCode\Hard" />
       <Folder Include="图" />
     </ItemGroup>
 

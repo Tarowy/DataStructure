@@ -1,5 +1,9 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
+    /// <summary>
+    /// 785. 判断二分图
+    /// https://leetcode.cn/problems/is-graph-bipartite/
+    /// </summary>
     public class LeetCode785
     {
         // public static void Main(string[] args)

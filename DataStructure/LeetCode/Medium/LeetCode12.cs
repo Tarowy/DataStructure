@@ -1,4 +1,4 @@
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Medium;
 
 /// <summary>
 /// 12. 整数转罗马数字

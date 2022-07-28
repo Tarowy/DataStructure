@@ -1,7 +1,6 @@
 using System;
-using System.Numerics;
 
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
     /// <summary>
     /// 3. 无重复字符的最长子串

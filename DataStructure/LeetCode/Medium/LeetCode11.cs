@@ -1,6 +1,6 @@
 using System;
 
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Medium;
 
 /// <summary>
 /// 11. 盛最多水的容器

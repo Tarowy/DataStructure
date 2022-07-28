@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
     /// <summary>
     /// 2. 两数相加

@@ -1,6 +1,4 @@
-using System;
-
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Simple;
 
 /// <summary>
 /// 9. 回文数

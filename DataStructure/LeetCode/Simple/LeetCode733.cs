@@ -1,5 +1,9 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Simple
 {
+    /// <summary>
+    /// 733. 图像渲染
+    /// https://leetcode.cn/problems/flood-fill/
+    /// </summary>
     public class LeetCode733
     {
         //x的方向是从上往下，y的方向是从左往右

@@ -1,5 +1,9 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
+    /// <summary>
+    /// 695. 岛屿的最大面积
+    /// https://leetcode.cn/problems/max-area-of-island/
+    /// </summary>
     public class LeetCode695
     {
         //x的方向是从上往下，y的方向是从左往右

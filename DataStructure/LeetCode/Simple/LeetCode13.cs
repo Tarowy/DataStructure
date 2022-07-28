@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DataStructure.LeetCode;
+namespace DataStructure.LeetCode.Simple;
 
 /// <summary>
 /// 13. 罗马数字转整数

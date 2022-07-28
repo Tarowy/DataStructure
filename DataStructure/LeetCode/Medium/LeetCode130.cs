@@ -1,5 +1,9 @@
-namespace DataStructure.LeetCode
+namespace DataStructure.LeetCode.Medium
 {
+    /// <summary>
+    /// 130. 被围绕的区域
+    /// https://leetcode.cn/problems/surrounded-regions/
+    /// </summary>
     public class LeetCode130
     {
         //x的方向是从上往下，y的方向是从左往右
