@@ -8,29 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode15.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode16.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode17.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode18.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode19.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode22.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode24.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode203.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode206.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode26.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode27.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode283.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode485.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode496.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode933.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode1020.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode1020.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode11.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode11.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode12.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode12.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode13.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode13.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode130.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode130.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode14.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode14.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode200.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode200.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode21.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode21.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode695.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode695.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode7.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode7.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode733.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode733.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode785.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode785.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/LeetCode9.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode9.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +35,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ae834d5fb7eae7b5b55aa022386da5666a22b8bc2b3e9d3a2d5bdb2fe724eb8e/Queue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -208,6 +199,18 @@
       <workItem from="1658837431056" duration="3343000" />
       <workItem from="1658881850074" duration="4961000" />
       <workItem from="1658924437739" duration="3516000" />
+      <workItem from="1658968033447" duration="4161000" />
+      <workItem from="1659009754874" duration="4193000" />
+      <workItem from="1659056862924" duration="1682000" />
+      <workItem from="1659095848037" duration="3922000" />
+      <workItem from="1659144858285" duration="1010000" />
+      <workItem from="1659183655053" duration="1200000" />
+      <workItem from="1659353201308" duration="4126000" />
+      <workItem from="1659400461273" duration="2848000" />
+      <workItem from="1659443195194" duration="3997000" />
+      <workItem from="1659490158918" duration="888000" />
+      <workItem from="1659529443241" duration="3453000" />
+      <workItem from="1659573411776" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -447,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658709822198</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="LeetCode15-19">
+      <created>1658968524127</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1658968524127</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +479,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="实现有序数组" />
     <MESSAGE value="有序数组实现集合与字典" />
     <MESSAGE value="二叉查找树的添加" />
     <MESSAGE value="二叉树的四种遍历" />
@@ -494,7 +503,8 @@
     <MESSAGE value="LeetCode7,9" />
     <MESSAGE value="LeetCode11,12" />
     <MESSAGE value="leetCode13,14" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetCode13,14" />
+    <MESSAGE value="LeetCode15-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode15-19" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
