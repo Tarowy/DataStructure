@@ -8,17 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode22.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode24.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode203.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode206.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode26.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode27.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode283.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode485.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode496.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode933.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode162.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode74.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode881.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode141.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode144.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode145.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode215.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode217.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode35.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode389.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode692.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode704.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode705.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode94.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +41,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ae834d5fb7eae7b5b55aa022386da5666a22b8bc2b3e9d3a2d5bdb2fe724eb8e/Queue.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,19 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.CSharpInteractiveConfiguration&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "3e364d",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.CSharpInteractiveConfiguration",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DataStructure" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -210,7 +213,26 @@
       <workItem from="1659443195194" duration="3997000" />
       <workItem from="1659490158918" duration="888000" />
       <workItem from="1659529443241" duration="3453000" />
-      <workItem from="1659573411776" duration="594000" />
+      <workItem from="1659573411776" duration="2304000" />
+      <workItem from="1659615877592" duration="3635000" />
+      <workItem from="1659622394612" duration="948000" />
+      <workItem from="1659660611738" duration="2743000" />
+      <workItem from="1659699613793" duration="7000000" />
+      <workItem from="1659747550171" duration="2308000" />
+      <workItem from="1659787922707" duration="9130000" />
+      <workItem from="1659831700225" duration="4414000" />
+      <workItem from="1659874659170" duration="4765000" />
+      <workItem from="1659919659491" duration="3341000" />
+      <workItem from="1659964403929" duration="4954000" />
+      <workItem from="1660005260581" duration="3149000" />
+      <workItem from="1660047004470" duration="7828000" />
+      <workItem from="1660178782623" duration="3257000" />
+      <workItem from="1660217510519" duration="5572000" />
+      <workItem from="1660263884551" duration="3340000" />
+      <workItem from="1660305953193" duration="2900000" />
+      <workItem from="1660393990193" duration="3902000" />
+      <workItem from="1660436934545" duration="4405000" />
+      <workItem from="1661697249596" duration="3294000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -457,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658968524127</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="LeetCode22,24,26,27,203,206,283,485,496,933">
+      <created>1659574619743</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659574619743</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="有序数组实现集合与字典" />
     <MESSAGE value="二叉查找树的添加" />
     <MESSAGE value="二叉树的四种遍历" />
     <MESSAGE value="二叉树对元素的删除" />
@@ -504,7 +532,8 @@
     <MESSAGE value="LeetCode11,12" />
     <MESSAGE value="leetCode13,14" />
     <MESSAGE value="LeetCode15-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode15-19" />
+    <MESSAGE value="LeetCode22,24,26,27,203,206,283,485,496,933" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode22,24,26,27,203,206,283,485,496,933" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
