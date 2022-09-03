@@ -8,22 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode162.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode74.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode881.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode141.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode144.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode145.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode215.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode217.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode35.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode389.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode692.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode704.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode705.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode94.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode102.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode107.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode1456.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode209.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode53.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode78.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode169.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode344.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode509.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode938.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +50,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "3e364d",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.CSharpInteractiveConfiguration",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;3e364d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DataStructure" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -233,6 +228,15 @@
       <workItem from="1660393990193" duration="3902000" />
       <workItem from="1660436934545" duration="4405000" />
       <workItem from="1661697249596" duration="3294000" />
+      <workItem from="1661700588989" duration="67000" />
+      <workItem from="1661732446829" duration="11102000" />
+      <workItem from="1661819802064" duration="3528000" />
+      <workItem from="1661907363035" duration="4128000" />
+      <workItem from="1661955533235" duration="5184000" />
+      <workItem from="1661992634702" duration="4163000" />
+      <workItem from="1662080974363" duration="5962000" />
+      <workItem from="1662164505370" duration="2929000" />
+      <workItem from="1662167650243" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -486,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659574619743</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881">
+      <created>1661700643499</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1661700643499</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="二叉查找树的添加" />
     <MESSAGE value="二叉树的四种遍历" />
     <MESSAGE value="二叉树对元素的删除" />
     <MESSAGE value="使用二叉树实现集合与映射" />
@@ -533,7 +543,8 @@
     <MESSAGE value="leetCode13,14" />
     <MESSAGE value="LeetCode15-19" />
     <MESSAGE value="LeetCode22,24,26,27,203,206,283,485,496,933" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode22,24,26,27,203,206,283,485,496,933" />
+    <MESSAGE value="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
