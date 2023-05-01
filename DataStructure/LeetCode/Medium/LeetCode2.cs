@@ -18,12 +18,12 @@ namespace DataStructure.LeetCode.Medium
 
     public class LeetCode2
     {
-        public static void Main(string[] args)
-        {
-            var listNode1 = new ListNode(9).next = new ListNode(9);
-            var listNode2 = new ListNode(9);
-            new LeetCode2().AddTwoNumbers(listNode1, listNode2);
-        }
+        // public static void Main(string[] args)
+        // {
+        //     var listNode1 = new ListNode(9).next = new ListNode(9);
+        //     var listNode2 = new ListNode(9);
+        //     new LeetCode2().AddTwoNumbers(listNode1, listNode2);
+        // }
         
         /*
          * 输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]

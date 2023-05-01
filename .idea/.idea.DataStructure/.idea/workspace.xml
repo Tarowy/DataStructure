@@ -8,17 +8,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode102.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode107.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode1456.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode209.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode53.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode78.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode169.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode344.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode509.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode938.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode105.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode106.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode131.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode142.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode150.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode151.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode216.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode222.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode235.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode236.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode28.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode347.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode39.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode40.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode450.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode454.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode46.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode47.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode491.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode513.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode538.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode59.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode654.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode669.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode701.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode707.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode77.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode90.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode93.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode98.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/XXLeetCode322.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode101.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode104.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode1047.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode108.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode110.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode111.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode112.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode20.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode225.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode226.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode232.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode242.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode257.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode349.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode404.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode459.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode501.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode530.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode541.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode617.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode700.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode977.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[1217]玩筹码.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[322]零钱兑换.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[509]斐波那契数.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[55]跳跃游戏.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[62]不同路径.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[1217]玩筹码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[322]零钱兑换.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[509]斐波那契数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[55]跳跃游戏.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[62]不同路径.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/note/[1217]玩筹码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/solution/322-by-ikaruga.lcv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/solution/wan-chou-ma-by-leetcode-solution-swnp.lcv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/Test/TestRef.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +98,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode1047.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode144.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode20.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode21.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode225.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode232.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode94.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,16 +123,25 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Project.color&quot;: &quot;3e364d&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Tarowy\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Tarowy\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Tarowy\\AppData\\Local\\Symbols\\src&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -236,7 +316,55 @@
       <workItem from="1661992634702" duration="4163000" />
       <workItem from="1662080974363" duration="5962000" />
       <workItem from="1662164505370" duration="2929000" />
-      <workItem from="1662167650243" duration="2795000" />
+      <workItem from="1662167650243" duration="2927000" />
+      <workItem from="1662250868056" duration="6394000" />
+      <workItem from="1662336895171" duration="943000" />
+      <workItem from="1662337858610" duration="4491000" />
+      <workItem from="1662423900066" duration="2863000" />
+      <workItem from="1662511096578" duration="3458000" />
+      <workItem from="1662598450313" duration="2471000" />
+      <workItem from="1675519508162" duration="771000" />
+      <workItem from="1678346761434" duration="1244000" />
+      <workItem from="1678432210272" duration="2270000" />
+      <workItem from="1678446698336" duration="1727000" />
+      <workItem from="1678532173413" duration="1550000" />
+      <workItem from="1678683381987" duration="4495000" />
+      <workItem from="1678785013188" duration="1089000" />
+      <workItem from="1678857054810" duration="677000" />
+      <workItem from="1678952288562" duration="642000" />
+      <workItem from="1679135016135" duration="1992000" />
+      <workItem from="1679210476654" duration="2696000" />
+      <workItem from="1679379142604" duration="608000" />
+      <workItem from="1679477000583" duration="5138000" />
+      <workItem from="1679557239530" duration="4250000" />
+      <workItem from="1679907124436" duration="3457000" />
+      <workItem from="1679988449052" duration="1998000" />
+      <workItem from="1680175670939" duration="1034000" />
+      <workItem from="1680421989885" duration="8002000" />
+      <workItem from="1680674336228" duration="4322000" />
+      <workItem from="1680773687252" duration="3255000" />
+      <workItem from="1680849124695" duration="657000" />
+      <workItem from="1680851962578" duration="73000" />
+      <workItem from="1680852109001" duration="113000" />
+      <workItem from="1680852240441" duration="2020000" />
+      <workItem from="1681020295505" duration="3411000" />
+      <workItem from="1681104679591" duration="3081000" />
+      <workItem from="1681196496481" duration="3924000" />
+      <workItem from="1681291508671" duration="780000" />
+      <workItem from="1681293629424" duration="9000" />
+      <workItem from="1681374507988" duration="2884000" />
+      <workItem from="1681470899668" duration="726000" />
+      <workItem from="1681538152203" duration="2208000" />
+      <workItem from="1681709617769" duration="595000" />
+      <workItem from="1681727110231" duration="1002000" />
+      <workItem from="1681975527227" duration="2550000" />
+      <workItem from="1682065954954" duration="2932000" />
+      <workItem from="1682236886417" duration="2430000" />
+      <workItem from="1682325552328" duration="2689000" />
+      <workItem from="1682406945960" duration="3863000" />
+      <workItem from="1682505897544" duration="162000" />
+      <workItem from="1682583019220" duration="987000" />
+      <workItem from="1682584191544" duration="2797000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -497,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661700643499</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="LeetCode53,78,102,107,169,209,344,509,938,1456">
+      <created>1662170562786</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1662170562786</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,8 +653,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="二叉树的四种遍历" />
     <MESSAGE value="二叉树对元素的删除" />
     <MESSAGE value="使用二叉树实现集合与映射" />
     <MESSAGE value="学习红黑树；使用红黑树实现集合与字典" />
@@ -544,7 +679,8 @@
     <MESSAGE value="LeetCode15-19" />
     <MESSAGE value="LeetCode22,24,26,27,203,206,283,485,496,933" />
     <MESSAGE value="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881" />
+    <MESSAGE value="LeetCode53,78,102,107,169,209,344,509,938,1456" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode53,78,102,107,169,209,344,509,938,1456" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

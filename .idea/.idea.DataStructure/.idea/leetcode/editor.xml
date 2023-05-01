@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[1217]玩筹码.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[1217]玩筹码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1217" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[1217]玩筹码.cs" />
+              <option name="titleSlug" value="minimum-cost-to-move-chips-to-the-same-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[322]零钱兑换.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[322]零钱兑换.md" />
+              <option name="frontendQuestionId" value="leetcode.cn322" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[322]零钱兑换.cs" />
+              <option name="titleSlug" value="coin-change" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[509]斐波那契数.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[509]斐波那契数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn509" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[509]斐波那契数.cs" />
+              <option name="titleSlug" value="fibonacci-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[55]跳跃游戏.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[55]跳跃游戏.md" />
+              <option name="frontendQuestionId" value="leetcode.cn55" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[55]跳跃游戏.cs" />
+              <option name="titleSlug" value="jump-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[62]不同路径.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[62]不同路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn62" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[62]不同路径.cs" />
+              <option name="titleSlug" value="unique-paths" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Downloads/leetcode/editor/cn/[1217]玩筹码.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[1217]玩筹码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1217" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[1217]玩筹码.cs" />
+              <option name="titleSlug" value="minimum-cost-to-move-chips-to-the-same-position" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Downloads/leetcode/editor/cn/[2081]k 镜像数字的和.cs">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../Downloads/leetcode/editor/cn/doc/content/[2081]k 镜像数字的和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2081" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../Downloads/leetcode/editor/cn/[2081]k 镜像数字的和.cs" />
+              <option name="titleSlug" value="sum-of-k-mirror-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
