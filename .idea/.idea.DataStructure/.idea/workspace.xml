@@ -8,79 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66aa158c-c29c-43bf-afe5-1ec8372fe8ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode105.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode106.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode131.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode142.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode150.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode151.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode216.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode222.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode235.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode236.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode28.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode347.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode39.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode40.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode450.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode454.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode46.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode47.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode491.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode513.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode538.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode59.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode654.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode669.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode701.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode707.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode77.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode90.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode93.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode98.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/XXLeetCode322.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode101.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode104.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode1047.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode108.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode110.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode111.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode112.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode20.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode225.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode226.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode232.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode242.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode257.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode349.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode404.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode459.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode501.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode530.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode541.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode617.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode700.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode977.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[1217]玩筹码.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[322]零钱兑换.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[509]斐波那契数.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[55]跳跃游戏.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/[62]不同路径.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[1217]玩筹码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[322]零钱兑换.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[509]斐波那契数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[55]跳跃游戏.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/content/[62]不同路径.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/note/[1217]玩筹码.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/solution/322-by-ikaruga.lcv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/leetcode/editor/cn/doc/solution/wan-chou-ma-by-leetcode-solution-swnp.lcv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Test/TestRef.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode122.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode134.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode376.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode406.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode45.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode452.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode55.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode56.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode738.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode763.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode1005.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode455.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Simple/LeetCode860.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DataStructure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/DataStructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LeetCode/Medium/LeetCode2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +29,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -110,6 +56,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -365,6 +312,19 @@
       <workItem from="1682505897544" duration="162000" />
       <workItem from="1682583019220" duration="987000" />
       <workItem from="1682584191544" duration="2797000" />
+      <workItem from="1682930647924" duration="1841000" />
+      <workItem from="1683014636867" duration="4375000" />
+      <workItem from="1683106314541" duration="1980000" />
+      <workItem from="1683280433617" duration="1262000" />
+      <workItem from="1684154478615" duration="1879000" />
+      <workItem from="1684241901507" duration="999000" />
+      <workItem from="1684570419979" duration="1273000" />
+      <workItem from="1685499034655" duration="2111000" />
+      <workItem from="1686450325220" duration="1323000" />
+      <workItem from="1686536513743" duration="594000" />
+      <workItem from="1687308887342" duration="608000" />
+      <workItem from="1688087826066" duration="3313000" />
+      <workItem from="1688173178157" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="创建工程">
       <created>1649740319243</created>
@@ -632,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662170562786</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="回溯、二叉树、栈与队列，双指针">
+      <created>1682930923247</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682930923247</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +622,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="二叉树对元素的删除" />
     <MESSAGE value="使用二叉树实现集合与映射" />
     <MESSAGE value="学习红黑树；使用红黑树实现集合与字典" />
     <MESSAGE value="冒泡排序" />
@@ -680,7 +646,8 @@
     <MESSAGE value="LeetCode22,24,26,27,203,206,283,485,496,933" />
     <MESSAGE value="LeetCode35,74,94,141,144,145,162,215,217,389,692,704,705,881" />
     <MESSAGE value="LeetCode53,78,102,107,169,209,344,509,938,1456" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode53,78,102,107,169,209,344,509,938,1456" />
+    <MESSAGE value="回溯、二叉树、栈与队列、双指针、字符串、哈希表、链表、数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯、二叉树、栈与队列、双指针、字符串、哈希表、链表、数组" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
